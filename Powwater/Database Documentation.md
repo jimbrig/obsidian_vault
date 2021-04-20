@@ -7,6 +7,18 @@ author: Jimmy Briggs
 
 # Database Documentation
 
+## Schema
+
+## Connecting
+
+## Running Locally in Docker Container
+
+- pgsync/pg_dump to retrieve SQL from remote hosted production database
+- spin up docker container for postgres locally with correct credentials (password=p, port=5432, dbname = postgres, etc.)
+- create copy of remote database's public schema in the newly created docker container
+- connect to local container database instance from apps, 
+
+
 ## Resources:
 
 ### Tools
