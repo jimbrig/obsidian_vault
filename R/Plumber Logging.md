@@ -47,7 +47,9 @@ function() {
 }
 ```
 
-Now that we’ve defined two endpoints (`/echo` and `/plot`), we can use `entrypoint.R` to setup logging using preroute and postroute hooks. First, we need to configure the logger package:
+Now that we’ve defined two endpoints (`/echo` and `/plot`), we can use `entrypoint.R` to setup logging using preroute and postroute hooks. 
+
+First, we need to configure the logger package:
 
 ```
 # entrypoint.R
@@ -60,6 +62,42 @@ library(logger)
 log_dir <- "logs"
 if (!fs::dir_exists(log_dir)) fs::dir_create(log_dir)
 log_appender(appender_tee(tempfile("plumber_", log_dir, ".log")))
+```
+
+The `log_appender()` function is used to specify which appender method is used for logging. Here we use `appender_tee()` so that logs will be written to `stdout` and to a specific file path. We create a directory called `logs/` in the current working directory to store the resulting logs. Every log file is assigned a unique name using `tempfile()`. This prevents errors that can occur if concurrent processes try to write to the same file.
+
+Now, we need to create a helper function that we will use when creating log entries:
+
+```
+convert_empty <- function(string) {
+  if (string == "") {
+    "-"
+  } else {
+    string
+  }
+}
+```
+
+This function takes an empty string and converts it into a dash (`"-"`). We will use this to ensure that empty log values still get recorded so that it is easy to read the log files. We’re now ready to create our plumber router and register the hooks necessary for logging:
+
+```
+pr <- plumb("plumber.R")
+
+pr$registerHooks(
+  list(
+    preroute = function() {
+      # Start timer for log info
+      tictoc::tic()
+    },
+    postroute = function(req, res) {
+      end <- tictoc::toc(quiet = TRUE)
+      # Log details about the request and the response
+      log_info('{convert_empty(req$REMOTE_ADDR)} "{convert_empty(req$HTTP_USER_AGENT)}" {convert_empty(req$HTTP_HOST)} {convert_empty(req$REQUEST_METHOD)} {convert_empty(req$PATH_INFO)} {convert_empty(res$status)} {round(end$toc - end$tic, digits = getOption("digits", 5))}')
+    }
+  )
+)
+
+pr
 ```
 
 ***
