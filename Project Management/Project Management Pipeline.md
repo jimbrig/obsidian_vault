@@ -41,11 +41,23 @@ Next, outline and list out all the necessary steps to complete each task, asking
 
 ## Step 3: Get Organized
 
-Committing to being organized and finding a structure that fits the project's needs gives a fresh insight into what needs to get done, reprioritized, or re
+Committing to being organized and finding a structure that fits the project's needs gives a fresh insight into what needs to get done, re-prioritized, or reorganized. 
+
+Set a time each week, such as every Friday afternoon or Monday morning, to review work items. This not only keeps your mind fresh but also helps you see all the things that are part of a bigger project and vision. Change happens, so you’re probably updating a lot of tasks in the course of a week. This review process will help you stay on top of your moving work
+
+## Step 4: Just Do It
+
+Now that you’ve completed the first four steps, it’s time to take action. Pull the trigger; press publish; deliver the final product. What do you do _right now_?
+
+Based on David Allen’s GTD methodology, consider these four things:
+
+1.  **Context.** What can you do right now?
+2.  **Time available.** What do you have time to do right now?
+3.  **Energy available.** What are you able to accomplish right now?
+4.  **Priority.** After answering the first three questions, start working on the highest priority item.
+
 
 ***
-Links: 
-Sources:
-- [Five Steps to Getting a Project Done | LiquidPlanner](https://www.liquidplanner.com/blog/5-steps-to-getting-a-project-done/#:~:text=Five%20Steps%20to%20Getting%20a%20Project%20Done.%201,to%20review.%205%205.%20Just%20do%20it%21%20)
-- 
+Links: [[Project Management]] | [[PKM]] | [[Productivity]]
+Source: [Five Steps to Getting a Project Done | LiquidPlanner](https://www.liquidplanner.com/blog/5-steps-to-getting-a-project-done/#:~:text=Five%20Steps%20to%20Getting%20a%20Project%20Done.%201,to%20review.%205%205.%20Just%20do%20it%21%20)
 
