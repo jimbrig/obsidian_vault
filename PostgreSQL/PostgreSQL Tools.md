@@ -39,7 +39,39 @@ author: Jimmy Briggs
 - pgSync
 - postgres-ai/database-lab
 - DBML, dbdocs.io, dbdiagram.io
-- 
+- WAL-G:
+	- [wal-g/wal-g: Archival and Restoration for Postgres (github.com)](https://github.com/wal-g/wal-g#configuration)
+
+
+## Docker
+- [postgres (docker.com)](https://hub.docker.com/_/postgres)
+- [postgres/Dockerfile](https://github.com/docker-library/postgres/blob/7bd41786539082857396f4d1b4f1cb326ebee8de/13/Dockerfile)
+- [postgresai/extended-postgres (docker.com)](https://hub.docker.com/r/postgresai/extended-postgres)
+
+```
+docker pull postgresai/extended-postgres
+```
+
+- [postgresai/sync-instance (docker.com)](https://hub.docker.com/r/postgresai/sync-instance)
+
+```powershell
+docker pull postgresai/sync-instances
+
+docker run \
+   --name sync_instance \
+   --env PGDATA=/var/lib/postgresql/pgdata \
+   --env WALG_GS_PREFIX="gs://{BUCKET}/{SCOPE}" \
+   --env GOOGLE_APPLICATION_CREDENTIALS="/etc/sa/credentials.json" \
+   --volume {PATH_TO_CREDENTIALS}:/etc/sa/credentials.json \
+   --volume /var/lib/dblab/data:/var/lib/postgresql/pgdata:rshared \
+   --detach \
+   postgresai/sync-instance:13
+```
+
+```
+
+```
+
 
 ***
 Links: 
