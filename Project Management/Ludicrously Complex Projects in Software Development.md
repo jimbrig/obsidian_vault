@@ -9,7 +9,29 @@ author: Jimmy Briggs
 
 ## Clear Ownership
 
-Split out the project into separate buckets of work duties and assign a
+Split out the project into separate buckets of work duties with leaders for each bucket:
+
+- Administrative
+- Technical
+- Strategy and Planning
+
+## Track Progress
+
+Communicate and track project's progression through sharing a project timeline and use it as a *single source of truth*. Keep it updated to reflect reality.
+
+## Make Effective Decisions
+
+- Brainstorm and be thoughtful by taking into account any and all long and short term implications.
+- Optimize for efficiency
+- Organize and Communicate
+
+## Manage Dependencies
+
+Anticipate bottlenecks – Make a table or diagram that maps out who your team relies on, and who relies on your team.
+
+Keep tabs on it – Assign one owner from each side who looks after each dependency. Make sure the dependency owners understand and communicate the impact of changes to all upstream and downstream teams.
+
+
 
 ***
 Links: 
