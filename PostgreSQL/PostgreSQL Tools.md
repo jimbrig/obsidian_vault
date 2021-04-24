@@ -17,6 +17,13 @@ author: Jimmy Briggs
 	- [PostgreSQL: Downloads](https://www.postgresql.org/download/)
 - [PostgreSQL: Software Catalogue - Administration/development tools](https://www.postgresql.org/download/products/1-administrationdevelopment-tools/)
 
+## CLI
+
+- psql
+- pgcli
+- pg_dump
+- pg_restore
+
 ## GUI
 
 - pgAdmin4
