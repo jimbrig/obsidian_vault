@@ -39,6 +39,8 @@ author: Jimmy Briggs
 - pgSync
 - postgres-ai/database-lab
 - DBML, dbdocs.io, dbdiagram.io
+- PostgREST
+- postGIS
 - WAL-G:
 	- [wal-g/wal-g: Archival and Restoration for Postgres (github.com)](https://github.com/wal-g/wal-g#configuration)
 
@@ -68,10 +70,15 @@ docker run \
    postgresai/sync-instance:13
 ```
 
-```
 
-```
+[postgrest/postgrest (docker.com)](https://hub.docker.com/r/postgrest/postgrest)
+[postgrestoauth/api (docker.com)](https://hub.docker.com/r/postgrestoauth/api)
 
+
+## Extensions
+
+- [Table of Contents — pgRouting Manual (3.1)](https://docs.pgrouting.org/latest/en/index.html)
+- 
 
 ***
 Links: 
