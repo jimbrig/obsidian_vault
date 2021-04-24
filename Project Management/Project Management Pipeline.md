@@ -16,7 +16,32 @@ Collect *all* work related items that are part of the project, including:
 - Physical Handwritten Notes and Brainstorms
 - Meeting/Call Agendas and Notes
 - Emails/Correspondence with Client
--  
+- Open Tasks in Task Manager
+- Open Github Issues
+- Slack Messages
+- Data received from client
+- etc. 
+
+After collecting, prioritize the pieces as tasks that are part of the project - if get stuck prioritizing ask yourself:
+
+1. Which one has the most immediate hard deadline?
+2. Which task will make the most positive effect if it is finished ASAP?
+3. Are any of these tasks dependent on another one?
+4. Am I dependent on another person to complete something else before starting?
+5. Is there a task that I must get off my plate to clear my mind and move forward?
+
+
+## Step 2: Develop a Process
+
+Next, outline and list out all the necessary steps to complete each task, asking these three questions:
+
+1. What are all the tasks and micro-tasks that must be done to complete this?
+2. Who needs to weigh in on, contribute to, perform a quality assurance check on, or sign off on the work?
+3. Is this the most efficient way to get from A to Z on this particular project?
+
+## Step 3: Get Organized
+
+Committing to being organized and finding a structure that fits the project's needs gives a fresh insight into what needs to get done, reprioritized, or re
 
 ***
 Links: 
