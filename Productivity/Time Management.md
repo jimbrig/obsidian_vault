@@ -20,8 +20,9 @@ Simply gathering data is not enough, you should reflect on the collected times a
 - TMetric
 - Toggl
 - Clockify
+- etc.
 
-- [Manual Tracking]() - at [[Tychobra]] we utilize an internal application we created outselves called *T3* for this.
+[Manual Tracking]() - at [[Tychobra]] we utilize an internal application we created ourselves called *T3* for this, but anything works the key is to consistently and thorouly track you time regardless of the medium used to track it.
 
 
 ## Get Clear On Priorities
@@ -41,6 +42,7 @@ Use your calendar, task manager coupled with labels, or a [[time block planner]]
 Links: 
 Sources:
 
+<iframe src="https://www.youtube.com/embed/xwsLuxlbY2w" width="100%" height="400px" ></iframe>
 
 
 
