@@ -9,6 +9,32 @@ author: Jimmy Briggs
 
 > Time is merely an illusion - therefore I can procrastinate and it doesn't matter! 
 
+## Time Tracking
+
+Use tools (internal, external, or simple manual tracking) to decipher what you are spending (and wasting your time) on. 
+
+Simply gathering data is not enough, you should reflect on the collected times and perform a "post-mortem" on what you could be spending your time on.
+
+### Time Tracking Tools
+
+- TMetric
+- Toggl
+- Clockify
+
+- [Manual Tracking]() - at [[Tychobra]] we utilize an internal application we created outselves called *T3* for this.
+
+
+## Get Clear On Priorities
+
+Get clear on your priorities.
+
+## Batch Tasks and Time Blocks
+
+Use your calendar, task manager coupled with labels, or a [[time block planner]] to block your time into chunks that contain similar tasks.
+
+
+## Learn how to say **NO**
+
 
 
 ***
