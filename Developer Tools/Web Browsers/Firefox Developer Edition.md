@@ -8,6 +8,9 @@ author: Jimmy Briggs
 # Firefox Developer Edition
 > Really, just use Firefox for fuck sake.
 
+## Features
+The key killer feature of Firefox is *containers*. 
+
 ## Settings
 - General:
 	- Enable `Ctrl + Tab` to cycle through tabs in recently used order:
