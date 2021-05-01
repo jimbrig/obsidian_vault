@@ -6,6 +6,7 @@ author: Jimmy Briggs
 ---
 
 # Firefox Developer Edition
+> Really, just use Firefox for fuck sake.
 
 ## Settings
 - General:
