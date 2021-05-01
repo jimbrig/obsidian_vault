@@ -15,6 +15,18 @@ author: Jimmy Briggs
 
 	- 
 
+## Themes
+
+Currently using the [Matte Black (Red) Theme](https://addons.mozilla.org/en-US/firefox/addon/matte-black-red/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)
+
+## Extensions
+
+- [Keeper Password Manager & Digital Vault](https://addons.mozilla.org/en-US/firefox/addon/keeper-password-manager-digita/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- 
+
+
 
 
 ***
