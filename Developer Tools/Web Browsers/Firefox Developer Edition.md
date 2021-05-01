@@ -52,3 +52,4 @@ Sources:
 - [30 Tips Tricks with the Firefox Developer Tools](https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61)
 - [Mozilla Github Organization Account Home Page](https://github.com/mozilla)
 - [Calling all web developers: here’s why you should be using Firefox](https://stories.jotform.com/calling-all-web-developers-heres-why-you-should-be-using-firefox-983f012d4aec?source=search_post---------0&gi=644a2b41bbe0)
+- [Firefox is the best browser for web-developers](https://dev.to/krishnakakade/firefox-is-the-best-browser-for-web-developers-49i7)
