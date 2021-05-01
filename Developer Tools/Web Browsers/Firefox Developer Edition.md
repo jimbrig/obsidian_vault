@@ -24,10 +24,19 @@ Currently using the [Matte Black (Red) Theme](https://addons.mozilla.org/en-US/f
 - [Keeper Password Manager & Digital Vault](https://addons.mozilla.org/en-US/firefox/addon/keeper-password-manager-digita/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 - [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 - [OneTab](https://addons.mozilla.org/en-US/firefox/addon/onetab/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
-- 
+- [Raindrop.io](https://addons.mozilla.org/en-US/firefox/addon/raindropio/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Drak Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 
+Non-Essential Extensions:
 
+- [Evernote Web Clipper](https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+-  [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [TamperMonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
+## Developer Tools
+
+- See [30 Tips Tricks with the FireFox-developer-tools(https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61]
 
 ***
 Links: 
