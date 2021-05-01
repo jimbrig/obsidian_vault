@@ -36,10 +36,15 @@ Non-Essential Extensions:
 
 ## Developer Tools
 
-- See [30 Tips Tricks with the FireFox-developer-tools(https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61]
+- See [30 Tips Tricks with the Firefox Developer Tools](https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61) Medium article
+
+You can save a snapshot of the network requests in your Network Monitor. It saves them as HAR or [HTTP Archive](https://w3c.github.io/web-performance/specs/HAR/Overview.html) format. You can also import HAR files and have them display in the Network Monitor so you can debug them.
+
+
 
 ***
 Links: 
-- https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61
-Source:
-
+Sources:
+- [30 Tips Tricks with the Firefox Developer Tools](https://lakatos.medium.com/30-tips-tricks-with-the-firefox-developer-tools-2e3f2ca5bc61)
+- [Mozilla Github Organization Account Home Page](https://github.com/mozilla)
+- [Calling all web developers: here’s why you should be using Firefox](https://stories.jotform.com/calling-all-web-developers-heres-why-you-should-be-using-firefox-983f012d4aec?source=search_post---------0&gi=644a2b41bbe0)
