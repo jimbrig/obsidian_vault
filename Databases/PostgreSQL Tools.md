@@ -7,9 +7,7 @@ author: Jimmy Briggs
 
 # PostgreSQL Tools
 
-## Core
-
-### PostgreSQL Engine
+## PostgreSQL Engine
 
 - [PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)
 	- [PostgreSQL: About](https://www.postgresql.org/about/)
@@ -19,12 +17,29 @@ author: Jimmy Briggs
 
 ## CLI
 
--   [pgcli](https://github.com/dbcli/pgcli) \- Postgres CLI with autocompletion and syntax highlighting
--   [pgsh](https://github.com/sastraxi/pgsh) \- Branch your PostgreSQL Database like Git
--   [psql](https://www.postgresql.org/docs/current/static/app-psql.html) \- The built-in PostgreSQL CLI client
--   [psql2csv](https://github.com/fphilipe/psql2csv) \- Run a query in psql and output the result as CSV
--   [nancy](https://gitlab.com/postgres-ai/nancy) \- The Nancy CLI is a unified way to manage automated database experiments either in clouds or on-premise
--   [schemaspy](https://github.com/schemaspy/schemaspy) \- SchemaSpy is a JAVA JDBC-compliant tool for generating your database to HTML documentation, including Entity Relationship diagrams
+-   [pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocompletion and syntax highlighting
+-   [pgsh](https://github.com/sastraxi/pgsh) - Branch your PostgreSQL Database like Git
+-   [psql](https://www.postgresql.org/docs/current/static/app-psql.html) - The built-in PostgreSQL CLI client
+-   [psql2csv](https://github.com/fphilipe/psql2csv) - Run a query in psql and output the result as CSV
+-   [nancy](https://gitlab.com/postgres-ai/nancy) - The Nancy CLI is a unified way to manage automated database experiments either in clouds or on-premise
+-   [schemaspy](https://github.com/schemaspy/schemaspy) - SchemaSpy is a JAVA JDBC-compliant tool for generating your database to HTML documentation, including Entity Relationship diagrams
+
+## Monitoring
+
+
+
+-   [check\_pgactivity](https://github.com/OPMDG/check_pgactivity) - check\_pgactivity is designed to monitor PostgreSQL clusters from Nagios. It offers many options to measure and monitor useful performance metrics.
+-   [Check\_postgres](https://github.com/bucardo/check_postgres) - Nagios check\_postgres plugin for checking status of PostgreSQL databases.
+-   [Instrumental](https://github.com/Instrumental/instrumentald) - Real-time performance monitoring, including [pre-made graphs](https://instrumentalapp.com/docs/instrumentald/postgresql#suggested-graphs) for ease of setup (Commercial Software)
+-   [libzbxpgsql](https://github.com/cavaliercoder/libzbxpgsql) - Comprehensive PostgreSQL monitoring module for Zabbix.
+-   [PMM](https://github.com/percona/pmm) - Percona Monitoring and Management (PMM) is a Free and Open Source platform for monitoring and managing PostgreSQL, MySQL, and MongoDB.
+-   [Pome](https://github.com/rach/pome) - Pome stands for PostgreSQL Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of the health of your database.
+-   [pgmetrics](https://pgmetrics.io/) - pgmetrics is an open-source, zero-dependency, single-binary tool that can collect a lot of information and statistics from a running PostgreSQL server and display it in easy-to-read text format or export it as JSON and CSV for scripting.
+-   [pg\_view](https://github.com/zalando/pg_view) - Open-source command-line tool that shows global system stats, per-partition information, memory stats and other information.
+-   [pgwatch2](https://github.com/cybertec-postgresql/pgwatch2) - Flexible and easy to get started PostgreSQL metrics monitor focusing on Grafana dashboards.
+-   [pgbench](https://www.postgresql.org/docs/devel/static/pgbench.html) - Run a benchmark test on PostgreSQL.
+-   [opm.io](http://opm.io/) - Open PostgreSQL Monitoring is a free software suite designed to help you manage your PostgreSQL servers. It can gather stats, display dashboards and send warnings when something goes wrong.
+-   [okmeter.io](https://okmeter.io/pg) - Commercial SaaS agent-based monitoring with a very detailed PostgreSQL plugin. It automatically gathers 100s of stats, displays dashboards on every aspect and sends alerts when something goes wrong (Commercial Software).
 
 ## GUI
 
