@@ -65,13 +65,44 @@ author: Jimmy Briggs
 - [lukeleppan/better-word-count: Counts the words of selected text in the editor. (github.com)](https://github.com/lukeleppan/better-word-count)
 - [renehernandez/obsidian-readwise: Sync Readwise highlights into your obsidian vault (github.com)](https://github.com/renehernandez/obsidian-readwise)
 - [zephraph/obsidian-tools: An unofficial collection of tools that helps you build plugins for obsidian.md (github.com)](https://github.com/zephraph/obsidian-tools)
-- 
+- [avr/obsidian-reading-time (github.com)](https://github.com/avr/obsidian-reading-time)
+- [avirut/obsidian-metatemplates: Take advantage of YAML front-matter in generating notes from templates (for obsidian.md) (github.com)](https://github.com/avirut/obsidian-metatemplates)
+- [mrjackphil/obsidian-jump-to-link: Quick jump between links using hotkeys (github.com)](https://github.com/mrjackphil/obsidian-jump-to-link)
+- [mrjackphil/obsidian-crosslink-between-notes: This plugin adds a command which allows to add a link to the current note at the bottom of selected notes (github.com)](https://github.com/mrjackphil/obsidian-crosslink-between-notes)
+- [danymat/Obsidian-Markdown-Parser: This repository will give you tools to parse and fetch useful informations of your notes in your Obsidian vault. (github.com)](https://github.com/danymat/Obsidian-Markdown-Parser)
+- [avirut/obsidian-query2table: Represent files returned by a query as a table of their YAML frontmatter (for obsidian.md) (github.com)](https://github.com/avirut/obsidian-query2table)
+- [aviskase/obsidian-link-indexer (github.com)](https://github.com/aviskase/obsidian-link-indexer)
+- [hadynz/obsidian-kindle-plugin: Sync your Kindle notes and highlights directly into your Obsidian vault (github.com)](https://github.com/hadynz/obsidian-kindle-plugin)
+- [erichalldev/obsidian-smart-random-note: A smart random note plugin for Obsidian (github.com)](https://github.com/erichalldev/obsidian-smart-random-note)
+- [pjeby/pane-relief: Obsidian plugin for per-pane history, pane movement/navigation hotkeys, and more (github.com)](https://github.com/pjeby/pane-relief)
+- [HEmile/obsidian-search-on-internet: Add context menu items in Obsidian to search the internet. (github.com)](https://github.com/HEmile/obsidian-search-on-internet)
+- [meld-cp/obsidian-encrypt: Hide secrets in your Obsidian.md vault (github.com)](https://github.com/meld-cp/obsidian-encrypt)
+- [THeK3nger/obsidian-plugin-template: Template for Obsidian.md Plugins (github.com)](https://github.com/THeK3nger/obsidian-plugin-template)
+- [tgrosinger/recent-files-obsidian: Display a list of most recently opened files (github.com)](https://github.com/tgrosinger/recent-files-obsidian)
+- [joethei/obsidian-plantuml: Generate PlantUML Diagrams inside Obsidian.md (github.com)](https://github.com/joethei/obsidian-plantuml)
+- [ryanjamurphy/vantage-obsidian: Vantage helps you build complex queries using Obsidian's native search tools. (github.com)](https://github.com/ryanjamurphy/vantage-obsidian)
+- [trashhalo/obsidian-extract-url: Plugin to extract markdown out of urls (github.com)](https://github.com/trashhalo/obsidian-extract-url)
+- [gavvvr/obsidian-imgur-plugin: Pastes images right to imgur.com (github.com)](https://github.com/gavvvr/obsidian-imgur-plugin)
+- [lukeleppan/obsidian-discordrpc: Update your Discord Status to show your friends what you are working on in Obsidian. With Discord Rich Presence. (github.com)](https://github.com/lukeleppan/obsidian-discordrpc)
+- [dhruvik7/obsidian-daily-stats: Plugin to view your daily word count across all notes in your Obsidian.md vault. (github.com)](https://github.com/dhruvik7/obsidian-daily-stats)
+- [ze-kel/DayOne-JSON-to-MD: Converts jsons from Day One app to Markdown. Intended for transferring from DayOne to Obsidian but should work with everything else. (github.com)](https://github.com/ze-kel/DayOne-JSON-to-MD)
+- [whateverforever/zettelwarmer: CLI Tool for Zettlr/Obsidian to help you browse random notes. The older the note, the more likely it will be shown. (github.com)](https://github.com/whateverforever/zettelwarmer)
+- [liamcain/obsidian-things-logbook: Sync your Things 3 Logbook with Obsidian (github.com)](https://github.com/liamcain/obsidian-things-logbook)
+- [akaalias/obsidian-shuffle: Create custom and randomized writing prompts (github.com)](https://github.com/akaalias/obsidian-shuffle)
+- [kepano/obsidian-advanced-appearance: Change Obsidian colors, fonts and other cosmetic settings (github.com)](https://github.com/kepano/obsidian-advanced-appearance)
+- [phibr0/cycle-through-panes: Cycle through Panes - Obsidian Plugin (github.com)](https://github.com/phibr0/cycle-through-panes)
+- [liamcain/obsidian-creases: Mark headings to be collapsed by default (github.com)](https://github.com/liamcain/obsidian-creases)
+- [pjeby/note-folder-autorename: Obsidian plugin to support folder-overview notes by keeping their folder in sync (github.com)](https://github.com/pjeby/note-folder-autorename)
+- [rbrcsk/note-tools: A collection of my tools related to notetaking (github.com)](https://github.com/rbrcsk/note-tools)
+- [jobindj/obsidian-mkdocs: Publish Obsidian Notes with MkDocs (github.com)](https://github.com/jobindj/obsidian-mkdocs) ⭐
 
 
 ### Themes 🎢
 - [kepano/obsidian-minimal: Minimal theme for Obsidian (github.com)](https://github.com/kepano/obsidian-minimal)
 - [jplattel/obsidian-clipper: A Chrome extension that easily clips selections to Obsidian (github.com)](https://github.com/jplattel/obsidian-clipper)
 - [deathau/Notation-for-Obsidian: A theme for Obsidian, inspired by and borrowing elements from Notion (github.com)](https://github.com/deathau/Notation-for-Obsidian)
+- [dxcore35/Suddha-theme: Obsidian theme (github.com)](https://github.com/dxcore35/Suddha-theme)
+- 
 
 ### Developers
 
