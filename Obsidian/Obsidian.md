@@ -7,6 +7,10 @@ author: Jimmy Briggs
 
 # Obsidian
 
+## Github Repos
+
+- 
+
 ## Plugins
 
 - [[Templater Plugin Notes|Templater]]
