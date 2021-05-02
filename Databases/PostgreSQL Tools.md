@@ -26,6 +26,20 @@ author: Jimmy Briggs
 
 ## GUI
 
+-   [pgAdmin4](https://www.pgadmin.org/download/pgadmin-4-windows/)
+-   [DBeaver](https://dbeaver.com/)
+-   [Valentina Studio](https://www.valentina-db.com/en/get-free-valentina-studio)
+-   [Beekeeper Studio](https://www.beekeeperstudio.io/)
+-   [DBTarzan](https://aferrandi.github.io/dbtarzan/)
+-   [DB Browser (SQLite)](https://sqlitebrowser.org/)
+-   
+    
+-   dbeaver -
+    
+-   Valentina Studio -
+    
+-   
+
 - pgAdmin4
 - Dbeaver
 - Beekeeper Studio
