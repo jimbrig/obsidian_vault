@@ -1,4 +1,3 @@
-- 2021-05-03 at 01h20 · [[index]]
 - 2021-05-03 at 01h18 · [[setup]]
 - 2021-05-03 at 01h17 · [[index]]
 - 2021-05-03 at 01h13 · [[index]]
@@ -8,3 +7,4 @@
 - 2021-05-03 at 00h55 · [[WinGet CLI Setup and Settings]]
 - 2021-05-03 at 00h55 · [[Using diskusage Command in Windows]]
 - 2021-05-03 at 00h55 · [[Windows Command Line Commands Overview]]
+- 2021-05-03 at 00h55 · [[SFC and DISM Commands]]
