@@ -1,4 +1,4 @@
-# README
+# Obsidian Vault
 
 ## Favorites
 
