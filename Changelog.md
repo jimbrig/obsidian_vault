@@ -1,3 +1,6 @@
+- 2021-05-03 at 01h01 · [[Changelog]]
+- 2021-05-03 at 01h01 · [[Welcome]]
+- 2021-05-03 at 00h58 · [[README]]
 - 2021-05-03 at 00h55 · [[WinGet CLI Setup and Settings]]
 - 2021-05-03 at 00h55 · [[Using diskusage Command in Windows]]
 - 2021-05-03 at 00h55 · [[Windows Command Line Commands Overview]]
@@ -5,6 +8,3 @@
 - 2021-05-03 at 00h55 · [[How to Cleanup Windows from Command Line]]
 - 2021-05-03 at 00h55 · [[HTTP Requests Notes]]
 - 2021-05-03 at 00h55 · [[Backend Web Architecture]]
-- 2021-05-03 at 00h55 · [[Utils Package Hidden Gems in R]]
-- 2021-05-03 at 00h55 · [[Useful Packages in R List]]
-- 2021-05-03 at 00h55 · [[Tools Package Hidden Gems in R]]
