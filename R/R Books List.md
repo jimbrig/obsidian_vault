@@ -2,9 +2,13 @@
 
 A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown.org/)
 
-## Core R Manuals
+## R Core Team Manuals
 
+*Thanks to [Colin Fay](https:)*
 
+- [R Internals](http://colinfay.me/r-internals/) This is a guide to the internal structures of R and coding standards for the core team working on R itself.
+- 
+- [Writing R Extensions](https://colinfay.me/writing-r-extensions/index.html) Remastered version original CRAN version of [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
 
 ## R Programming
 
@@ -23,6 +27,8 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 - [A Sufficient Introduction to R](https://dereksonderegger.github.io/570L/) This book is intended to guide people that are completely new to programming along a path towards a useful skill level using R. I belive that while people can get by with just copying code chunks, that doesn’t give them the background information to modify the code in non-trivial ways. Therefore we will spend more time on foundational details than a “crash-course” would.
 
 ## R Package Development
+
+- [Writing R Extensions](https://colinfay.me/writing-r-extensions/index.html) Remastered version original CRAN version of [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
 
 - [R Packages](https://r-pkgs.org/) Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data. In this book you’ll learn how to turn your code into packages that others can easily download and use.
 
@@ -68,6 +74,15 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 - [Designing and Building Data Science Solutions](https://datasciencedesign.com/) Data science can be an exciting, invigorating field, and for the business leader, it can bring about revolutionary changes to an organization that can come with huge returns on investment and value added. For the data scientist, designing and delivering successful projects is rewarding, stimulating and tremendously gratifying. We hope this guide gives you the confidence to understand the risks and approach your project in a sensible way.
 
 - [Data Preparation: Essential Steps Before & After Analysis](https://bookdown.org/martin_monkman/DataPreparation_EssentialSteps/) It is routinely noted that the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) applies to data science—80% of one’s time is spent on data collection and preparation, and the remaining 20% on the “fun stuff” like modeling, data visualization, and communication.
+
+- [The caret Package](http://topepo.github.io/caret/) The [`caret`](http://cran.r-project.org/web/packages/caret/index.html) package (short for **C**lassification **A**nd **RE**gression **T**raining) is a set of functions that attempt to streamline the process for creating predictive models. The package contains tools for:
+	- data splitting
+	- pre-processing
+	- feature selection
+	- model tuning using resampling
+	- variable importance estimation
+	
+	as well as other functionality.
 
 ## Data Visualization
 
@@ -126,6 +141,8 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 	GitHub actions follow the steps designated in a `yaml` file, which we place in the `.github/workflows` folder of the repo. We can add these `yaml` files to our repo either by clicking on a series of steps on GitHub.com, or using wrapper functions provided by the `usethis` package, depending on which actions you wish to include. We describe both ways here.
 
 - [Geocomputation with R](https://geocompr.robinlovelace.net/) The book is designed for intermediate-to-advanced R users interested in geocomputation and R beginners who have prior experience with geographic data. If you are new to both R and geographic data, do not be discouraged: we provide links to further materials and describe the nature of spatial data from a beginner’s perspective in [Chapter 2](https://geocompr.robinlovelace.net/spatial-class.html#spatial-class) and in links provided below.
+
+- [Business Analytics with R](https://bookdown.org/jeffreytmonroe/business_analytics_with_r7/) The notes for this course were compiled from years of work in industry using R. These notes are intended to provide the non-programmer and programmer alike a hands-on approach to learning R for use in Business Analysis. The notes are ideal for the Accounting, Business, and Data Science majors desiring a better understanding of how the programming language R may be used to retrieve and organize data, perform analysis, create visualizations and automate business processes to reduce error and improve efficiency in the workplace.
 
 ***
 Misc books [here](https://bookdown.org/home/archive/)
