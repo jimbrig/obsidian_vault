@@ -100,52 +100,24 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 - [Bookdown](https://bookdown.org/yihui/bookdown/) bookdown: Authoring Books and Technical Documents with R Markdown. This short book introduces an R package, bookdown, to change your workflow of writing books. It should be technically easy to write a book, visually pleasant to view the book, fun to interact with the book, convenient to navigate through the book, straightforward for readers to contribute or leave feedback to the book author(s), and more importantly, authors should not always be distracted by typesetting details.
 
-- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) We introduce an R package, blogdown, in this short book, to teach you how to create websites using R Markdown and Hugo. If you have experience with creating websites, you may naturally ask what the benefits of using R Markdown are, and how blogdown is different from existing popular website platforms, such as WordPress. There are two major highlights of blogdown:
-
-	1. It produces a static website, meaning the website only consists of static files such as HTML, CSS, JavaScript, and images, etc. You can host the website on any web server (see Chapter 3 for details). The website does not require server-side scripts such as PHP or databases like WordPress does. It is just one folder of static files. We will explain more benefits of static websites in Chapter 2, when we introduce the static website generator Hugo.
-	2. The website is generated from R Markdown documents (R is optional, i.e., you can use plain Markdown documents without R code chunks). This brings a huge amount of benefits, especially if your website is related to data analysis or (R) programming. Being able to use Markdown implies simplicity and more importantly, portability (e.g., you are giving yourself the chance to convert your blog posts to PDF and publish to journals or even books in the future). R Markdown gives you the benefits of dynamic documents — all your results, such as tables, graphics, and inline values, can be computed and rendered dynamically from R code, hence the results you present on your website are more likely to be reproducible. An additional yet important benefit of using R Markdown is that you will be able to write technical documents easily, due to the fact that blogdown inherits the HTML output format from bookdown (Xie 2016). For example, it is possible to write LaTeX math equations, citations, and even theorems and proofs if you want.
+- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) We introduce an R package, blogdown, in this short book, to teach you how to create websites using R Markdown and Hugo. If you have experience with creating websites, you may naturally ask what the benefits of using R Markdown are, and how blogdown is different from existing popular website platforms, such as WordPress.
  
-- [Introduction to Research Methods](https://bookdown.org/ejvanholm/Textbook/)
+- [Introduction to Research Methods](https://bookdown.org/ejvanholm/Textbook/) This book is intended as a practical introduction to research methods in the social sciences. If you pursue research academically or professionally, it will probably not be the last book you need to read on the subject. This is intended as something of a gentle introduction with a focus on the applications of the information and examples.
 
-### Utility
+## Utility
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/) Happy Git provides opinionated instructions on how to: Install Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE. Develop a few key workflows that cover your most common tasks. Integrate Git and GitHub into your daily work with R and R Markdown.
 
-- [Data Science at the Command Line, 1e](https://www.datascienceatthecommandline.com/1e/)
+- [Data Science at the Command Line, 1e](https://www.datascienceatthecommandline.com/1e/) Discover why the command line is an agile, scalable, and extensible technology. Even if you’re already comfortable processing data with, say, Python or R, you’ll greatly improve your data science workflow by also leveraging the power of the command line.
 
-- [Github actions with R](https://ropenscilabs.github.io/actions_sandbox/)
+- [Github actions with R](https://ropenscilabs.github.io/actions_sandbox/)  [GitHub actions](https://github.com/features/actions) allow us to trigger automated steps after we launch GitHub interactions such as when we push, pull, submit a pull request, or write an issue. For example, there are actions that will automatically trigger:
+	-   continuous integration (CI)
+	-   messages in response to issues or pull requests
+	-   rendering/compiling e.g. of rmarkdown, bookdown, blogdowns etc
 
-- [Geocomputation with R](https://geocompr.robinlovelace.net/)
+	GitHub actions follow the steps designated in a `yaml` file, which we place in the `.github/workflows` folder of the repo. We can add these `yaml` files to our repo either by clicking on a series of steps on GitHub.com, or using wrapper functions provided by the `usethis` package, depending on which actions you wish to include. We describe both ways here.
 
+- [Geocomputation with R](https://geocompr.robinlovelace.net/) The book is designed for intermediate-to-advanced R users interested in geocomputation and R beginners who have prior experience with geographic data. If you are new to both R and geographic data, do not be discouraged: we provide links to further materials and describe the nature of spatial data from a beginner’s perspective in [Chapter 2](https://geocompr.robinlovelace.net/spatial-class.html#spatial-class) and in links provided below.
 
-
-
-
-
-
+***
 Misc books [here](https://bookdown.org/home/archive/)
-
-
-
-* 
-* 
-* [Welcome! | R Packages](https://r-pkgs.org/)
-* [Welcome | R for Data Science](https://r4ds.had.co.nz/)
-* [Welcome | Advanced R](https://adv-r.hadley.nz/)
-* 
-* 
-* 
-* 
-* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
-* [Efficient R programming](https://csgillespie.github.io/efficientR/)
-* [JavaScript for R](https://book.javascript-for-r.com/)
-* 
-* 
-* 
-* 
-* 
-* [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
-* 
-* 
-* [Chapter 5 Data validation | 
-* 
