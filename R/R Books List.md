@@ -57,13 +57,11 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 - [Working with Data in R](https://bookdown.org/ejvanholm/WorkingWithData/) This book will provide readers a few basic steps to begin working with data in R. It is not meant as a comprehensive introduction to using R for all of the different functions that are possible. Rather, it is tailored to help an individual that has quantitative data they would like to work with, but has not worked in R previously. The presentation of material is meant to be accessible to students with little to no background in R or computer programming.
 
-- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+- [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/) This book is about the fundamentals of R programming. You will get started with the basics of the language, learn how to manipulate datasets, how to write functions, and how to debug and optimize code. With the fundamentals provided in this book, you will have a solid foundation on which to build your data science toolbox.
 
-- [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+- [Designing and Building Data Science Solutions](https://datasciencedesign.com/) Data science can be an exciting, invigorating field, and for the business leader, it can bring about revolutionary changes to an organization that can come with huge returns on investment and value added. For the data scientist, designing and delivering successful projects is rewarding, stimulating and tremendously gratifying. We hope this guide gives you the confidence to understand the risks and approach your project in a sensible way.
 
-- [Designing and Building Data Science Solutions](https://datasciencedesign.com/)
-
-- [Data Preparation: Essential Steps Before & After Analysis](https://bookdown.org/martin_monkman/DataPreparation_EssentialSteps/)
+- [Data Preparation: Essential Steps Before & After Analysis](https://bookdown.org/martin_monkman/DataPreparation_EssentialSteps/) It is routinely noted that the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) applies to data science—80% of one’s time is spent on data collection and preparation, and the remaining 20% on the “fun stuff” like modeling, data visualization, and communication.
 
 ## Data Visualization
 
@@ -98,12 +96,15 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) The document format “R Markdown” was first introduced in the knitr package (Xie 2015, 2018d) in early 2012. The idea was to embed code chunks (of R or other languages) in Markdown documents. In fact, knitr supported several authoring languages from the beginning in addition to Markdown, including LaTeX, HTML, AsciiDoc, reStructuredText, and Textile. Looking back over the five years, it seems to be fair to say that Markdown has become the most popular document format, which is what we expected. The simplicity of Markdown clearly stands out among these document formats.
 
-- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) This book is designed to provide a range of examples on how to extend the functionality of your R Markdown documents. As a cookbook, this guide is recommended to new and intermediate R Markdown users who desire to enhance the efficiency of using R Markdown and also explore the power of R Markdown.
 
 - [Bookdown](https://bookdown.org/yihui/bookdown/) bookdown: Authoring Books and Technical Documents with R Markdown. This short book introduces an R package, bookdown, to change your workflow of writing books. It should be technically easy to write a book, visually pleasant to view the book, fun to interact with the book, convenient to navigate through the book, straightforward for readers to contribute or leave feedback to the book author(s), and more importantly, authors should not always be distracted by typesetting details.
 
-- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) We introduce an R package, blogdown, in this short book, to teach you how to create websites using R Markdown and Hugo. If you have experience with creating websites, you may naturally ask what the benefits of using R Markdown are, and how blogdown is different from existing popular website platforms, such as WordPress. There are two major highlights of blogdown:
 
+	1. It produces a static website, meaning the website only consists of static files such as HTML, CSS, JavaScript, and images, etc. You can host the website on any web server (see Chapter 3 for details). The website does not require server-side scripts such as PHP or databases like WordPress does. It is just one folder of static files. We will explain more benefits of static websites in Chapter 2, when we introduce the static website generator Hugo.
+	2. The website is generated from R Markdown documents (R is optional, i.e., you can use plain Markdown documents without R code chunks). This brings a huge amount of benefits, especially if your website is related to data analysis or (R) programming. Being able to use Markdown implies simplicity and more importantly, portability (e.g., you are giving yourself the chance to convert your blog posts to PDF and publish to journals or even books in the future). R Markdown gives you the benefits of dynamic documents — all your results, such as tables, graphics, and inline values, can be computed and rendered dynamically from R code, hence the results you present on your website are more likely to be reproducible. An additional yet important benefit of using R Markdown is that you will be able to write technical documents easily, due to the fact that blogdown inherits the HTML output format from bookdown (Xie 2016). For example, it is possible to write LaTeX math equations, citations, and even theorems and proofs if you want.
+ 
 - [Introduction to Research Methods](https://bookdown.org/ejvanholm/Textbook/)
 
 ### Utility
