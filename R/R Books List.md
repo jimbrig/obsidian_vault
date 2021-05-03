@@ -14,11 +14,13 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 - [R, Not the Best Practices](https://bookdown.org/voevodin_nv/R_Not_the_Best_Practices/) This book will follow the first three months of learning R at my new job. Before that I was just okay at computers. I played games, used the interweb and Microsoft Word and Excel for professional stuff. I did not know anything about programming nor did I know a single programmer. Code for me was just that, code, a random string of matrix letters that meant nothing. Since the memories of not knowing shit are still fresh, I feel quite confident that I should be able to put myself in your shoes and bring you to the level of proficiency that you should be after learning R for three months. Yes, three months. This book will cover my first quarter of dealing with R and programming in general.
 
+- [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/) This book can be useful to different audiences. If you have never used R in your life, and want to start, start with Chapter 1 of this book. Chapter 1 to 3 are the very basics, and should be easy to follow up to Chapter 9. Starting with Chapter 9, it gets more technical, and will be harder to follow. But I suggest you keep on going, and do not hesitate to contact me for help if you struggle! Chapter 9 is also where you can start if you are already familiar with R **and** the `{tidyverse}`, but not functional programming. If you are familiar with R but not the `{tidyverse}` (or have no clue what the `{tidyverse}` is), then you can start with Chapter 4. If you are familiar with R, the `{tidyverse}` and functional programming, you might still be interested in this book, especially Chapter 9 and 10, which deal with package development and further advanced topics respectively.
+
 ## R Package Development
 
 - [R Packages](https://r-pkgs.org/) Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data. In this book you’ll learn how to turn your code into packages that others can easily download and use.
 
-- [rOpenSci Packages Dev Guide: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
+- [rOpenSci Packages Dev Guide: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) This book is a guide for authors, maintainers, reviewers and editors of rOpenSci. The [first section of the book](https://devguide.ropensci.org/building.html#building) contains our guidelines for creating and testing R packages. The [second section](https://devguide.ropensci.org/softwarereviewintro.html#softwarereviewintro) is dedicated to rOpenSci’s software peer review process: what it is, our policies, and specific guides for authors, editors and reviewers throughout the process. The [third and last section](https://devguide.ropensci.org/collaboration.html#collaboration) features our best practice for nurturing your package once it has been onboarded: how to collaborate with other developers, how to document releases, how to promote your package and how to leverage GitHub as a development platform. The third section also features a [chapter for anyone wishing to start contributing to rOpenSci packages](https://devguide.ropensci.org/contributingguide.html#contributingguide).
 
 ## R Shiny
 
@@ -51,11 +53,17 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 - [Explanatory Model Analysis](https://ema.drwhy.ai/) Explore, Explain, and Examine Predictive Models. With examples in R and Python
 
-- [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
+- [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/) This course provides an overview of skills needed for reproducible research and open science using the statistical programming language R. Students will learn about data visualization, data tidying and wrangling, archiving, iteration and functions, probability and data simulations, general linear models, and reproducible workflows. Learning is reinforced through weekly assignments that involve working with different types of data.
 
-- [Working with Data in R](https://bookdown.org/ejvanholm/WorkingWithData/)
+- [Working with Data in R](https://bookdown.org/ejvanholm/WorkingWithData/) This book will provide readers a few basic steps to begin working with data in R. It is not meant as a comprehensive introduction to using R for all of the different functions that are possible. Rather, it is tailored to help an individual that has quantitative data they would like to work with, but has not worked in R previously. The presentation of material is meant to be accessible to students with little to no background in R or computer programming.
 
 - [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+
+- [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+- [Designing and Building Data Science Solutions](https://datasciencedesign.com/)
+
+- [Data Preparation: Essential Steps Before & After Analysis](https://bookdown.org/martin_monkman/DataPreparation_EssentialSteps/)
 
 ## Data Visualization
 
@@ -88,21 +96,31 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 ## R-Markdown and Friends
 
-[Introduction to Research Methods](https://bookdown.org/ejvanholm/Textbook/)
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) The document format “R Markdown” was first introduced in the knitr package (Xie 2015, 2018d) in early 2012. The idea was to embed code chunks (of R or other languages) in Markdown documents. In fact, knitr supported several authoring languages from the beginning in addition to Markdown, including LaTeX, HTML, AsciiDoc, reStructuredText, and Textile. Looking back over the five years, it seems to be fair to say that Markdown has become the most popular document format, which is what we expected. The simplicity of Markdown clearly stands out among these document formats.
+
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+- [Bookdown](https://bookdown.org/yihui/bookdown/) bookdown: Authoring Books and Technical Documents with R Markdown. This short book introduces an R package, bookdown, to change your workflow of writing books. It should be technically easy to write a book, visually pleasant to view the book, fun to interact with the book, convenient to navigate through the book, straightforward for readers to contribute or leave feedback to the book author(s), and more importantly, authors should not always be distracted by typesetting details.
+
+- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+
+- [Introduction to Research Methods](https://bookdown.org/ejvanholm/Textbook/)
 
 ### Utility
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/) Happy Git provides opinionated instructions on how to: Install Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE. Develop a few key workflows that cover your most common tasks. Integrate Git and GitHub into your daily work with R and R Markdown.
 
-- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) The document format “R Markdown” was first introduced in the knitr package (Xie 2015, 2018d) in early 2012. The idea was to embed code chunks (of R or other languages) in Markdown documents. In fact, knitr supported several authoring languages from the beginning in addition to Markdown, including LaTeX, HTML, AsciiDoc, reStructuredText, and Textile. Looking back over the five years, it seems to be fair to say that Markdown has become the most popular document format, which is what we expected. The simplicity of Markdown clearly stands out among these document formats.
-
-- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
-
-- [bookdown](https://bookdown.org/yihui/bookdown/) bookdown: Authoring Books and Technical Documents with R Markdown. This short book introduces an R package, bookdown, to change your workflow of writing books. It should be technically easy to write a book, visually pleasant to view the book, fun to interact with the book, convenient to navigate through the book, straightforward for readers to contribute or leave feedback to the book author(s), and more importantly, authors should not always be distracted by typesetting details.
-
 - [Data Science at the Command Line, 1e](https://www.datascienceatthecommandline.com/1e/)
 
-- [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/)
+- [Github actions with R](https://ropenscilabs.github.io/actions_sandbox/)
+
+- [Geocomputation with R](https://geocompr.robinlovelace.net/)
+
+
+
+
+
+
 
 Misc books [here](https://bookdown.org/home/archive/)
 
@@ -123,10 +141,10 @@ Misc books [here](https://bookdown.org/home/archive/)
 * 
 * 
 * 
-* [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
-* [Geocomputation with R](https://geocompr.robinlovelace.net/)
+* 
+* 
 * [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
-* [Github actions with R](https://ropenscilabs.github.io/actions_sandbox/)
-* [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/)
-* [Chapter 5 Data validation | Data Preparation: Essential Steps Before & After Analysis](https://bookdown.org/martin_monkman/DataPreparation_EssentialSteps/validation.html)
-* [Designing and Building Data Science Solutions](https://datasciencedesign.com/)
+* 
+* 
+* [Chapter 5 Data validation | 
+* 
