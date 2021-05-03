@@ -2,6 +2,10 @@
 
 A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown.org/)
 
+## Core R Manuals
+
+
+
 ## R Programming
 
 - [Advanced R](https://adv-r.hadley.nz/) This is the website for work-in-progress 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language. It should also be useful for programmers coming to R from other languages, as it explains some of R’s quirks and shows how some parts that seem horrible do have a positive side.
@@ -15,6 +19,8 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 - [R, Not the Best Practices](https://bookdown.org/voevodin_nv/R_Not_the_Best_Practices/) This book will follow the first three months of learning R at my new job. Before that I was just okay at computers. I played games, used the interweb and Microsoft Word and Excel for professional stuff. I did not know anything about programming nor did I know a single programmer. Code for me was just that, code, a random string of matrix letters that meant nothing. Since the memories of not knowing shit are still fresh, I feel quite confident that I should be able to put myself in your shoes and bring you to the level of proficiency that you should be after learning R for three months. Yes, three months. This book will cover my first quarter of dealing with R and programming in general.
 
 - [Modern R with the tidyverse](https://b-rodrigues.github.io/modern_R/) This book can be useful to different audiences. If you have never used R in your life, and want to start, start with Chapter 1 of this book. Chapter 1 to 3 are the very basics, and should be easy to follow up to Chapter 9. Starting with Chapter 9, it gets more technical, and will be harder to follow. But I suggest you keep on going, and do not hesitate to contact me for help if you struggle! Chapter 9 is also where you can start if you are already familiar with R **and** the `{tidyverse}`, but not functional programming. If you are familiar with R but not the `{tidyverse}` (or have no clue what the `{tidyverse}` is), then you can start with Chapter 4. If you are familiar with R, the `{tidyverse}` and functional programming, you might still be interested in this book, especially Chapter 9 and 10, which deal with package development and further advanced topics respectively.
+
+- [A Sufficient Introduction to R](https://dereksonderegger.github.io/570L/) This book is intended to guide people that are completely new to programming along a path towards a useful skill level using R. I belive that while people can get by with just copying code chunks, that doesn’t give them the background information to modify the code in non-trivial ways. Therefore we will spend more time on foundational details than a “crash-course” would.
 
 ## R Package Development
 
@@ -107,6 +113,8 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 ## Utility
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/) Happy Git provides opinionated instructions on how to: Install Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE. Develop a few key workflows that cover your most common tasks. Integrate Git and GitHub into your daily work with R and R Markdown.
+
+- [What They Forgot to Teach You About R](https://rstats.wtf/) We focus on building holistic and project-oriented workflows that address the most common sources of friction in data analysis, _outside of doing the statistical analysis itself_.
 
 - [Data Science at the Command Line, 1e](https://www.datascienceatthecommandline.com/1e/) Discover why the command line is an agile, scalable, and extensible technology. Even if you’re already comfortable processing data with, say, Python or R, you’ll greatly improve your data science workflow by also leveraging the power of the command line.
 
