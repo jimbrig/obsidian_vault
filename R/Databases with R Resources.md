@@ -14,8 +14,17 @@ author: Jimmy Briggs
 
 ### R Packages
 
-- [validatedb (data-cleaning.github.io)](https://data-cleaning.github.io/validatedb/)
-- [r-dbi/dblog: Logging for DBI (github.com)](https://github.com/r-dbi/dblog)
+- [r-dbi/DBI](https://github.com/r-dbi/DBI)
+- [r-dbi/RPostgres](https://github.com/r-dbi/RPostgres) (DBI Driver) & [tomoakin/RPostgreSQL](https://github.com/tomoakin/RPostgreSQL) (ODBC Driver)
+- [rstudio/pool](https://github.com/rstudio/pool)
+- [data-cleaning/validatedb](https://data-cleaning.github.io/validatedb/)
+- [r-dbi/dblog](https://github.com/r-dbi/dblog)
+- [dbx]
+- [databaser]
+- [threadr] & [dbr]
+- [DatabaseConnector]
+- [ShinyPostgreSQL]
+- [dittodb]
 - 
 
 ***
