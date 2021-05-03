@@ -5,9 +5,7 @@ tags: ["#note"]
 author: Jimmy Briggs
 ---
 
-# R Shiny Packages
-
-<hr>
+# R Shiny Resources
 
 - [Theming](#theming)
   - [Generic Theming](#generic-theming)
