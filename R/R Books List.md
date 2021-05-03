@@ -4,11 +4,27 @@ A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown
 
 ## R Core Team Manuals
 
-*Thanks to [Colin Fay](https:)*
+*Thanks to [Colin Fay](https://github.com/colinfay) for re-creating these as bookdowns!*
+
+View the list here: [R manuals - Colin Fay](https://colinfay.me/r-manuals/) or the original versions by R-Core here: [Index of /doc/manuals/r-release (r-project.org)](https://cran.r-project.org/doc/manuals/r-release/)
+
+- [An Introduction to R](http://colinfay.me/intro-to-r/) This manual provides information on data types, programming elements, statistical modeling and graphics.
+
+- [R Data Import/Export](http://colinfay.me/r-data-import-export/) This is a guide to importing and exporting data to and from R.
+
+- [R Installation and Administration](http://colinfay.me/r-installation-administration/) This is a guide to installation and administration for R.
+
+- [Writing R Extensions](https://colinfay.me/writing-r-extensions/index.html) Remastered version original CRAN version of [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+
+- [The R Language Definition](http://colinfay.me/r-language-definition/) This is an introduction to the R language, explaining evaluation, parsing, object oriented programming, computing on the language, and so forth.
 
 - [R Internals](http://colinfay.me/r-internals/) This is a guide to the internal structures of R and coding standards for the core team working on R itself.
-- 
-- [Writing R Extensions](https://colinfay.me/writing-r-extensions/index.html) Remastered version original CRAN version of [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html)
+
+
+
+
+
+
 
 ## R Programming
 
