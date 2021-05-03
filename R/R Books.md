@@ -2,11 +2,17 @@
 
 A non-exhaustive list of R books. Full list here [bookdown.org](https://bookdown.org/)
 
+## Contents
+
+- [R Core Team Manuals](#r-core-manuals)
+
 ## R Core Team Manuals
 
 *Thanks to [Colin Fay](https://github.com/colinfay) for re-creating these as bookdowns!*
 
-View the list here: [R manuals - Colin Fay](https://colinfay.me/r-manuals/) or the original versions by R-Core here: [Index of /doc/manuals/r-release (r-project.org)](https://cran.r-project.org/doc/manuals/r-release/)
+View the list here: [R manuals - Colin Fay](https://colinfay.me/r-manuals/). 
+
+The original versions by R-Core can be found here: [Index of R Manuals](https://cran.r-project.org/doc/manuals/r-release/).
 
 - [An Introduction to R](http://colinfay.me/intro-to-r/) This manual provides information on data types, programming elements, statistical modeling and graphics.
 
@@ -19,12 +25,6 @@ View the list here: [R manuals - Colin Fay](https://colinfay.me/r-manuals/) or t
 - [The R Language Definition](http://colinfay.me/r-language-definition/) This is an introduction to the R language, explaining evaluation, parsing, object oriented programming, computing on the language, and so forth.
 
 - [R Internals](http://colinfay.me/r-internals/) This is a guide to the internal structures of R and coding standards for the core team working on R itself.
-
-
-
-
-
-
 
 ## R Programming
 
