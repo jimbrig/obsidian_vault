@@ -7,6 +7,17 @@ author: Jimmy Briggs
 
 # WSL Commands and Installs
 
+## Initial WSL Installations
+
+- Update, upgrade, and cleanup  `apt` packages library
+- Install `build-essential`, `autoconf`, and `libtool`
+- Install `python`, `gcloud sdk`, and `github-cli` (Python, Git, and Bash should already be included with installation and upgraded in step 1 above)
+
+```
+sudp apt update && sudo apt upgrade && sudo apt autoclean 
+sudo apt-get install build-essential autoconf libtool
+```
+
 ## New WSLg GUI Applications
 
 - Install Edge with new [WSLg](https://github.com/windows/wslg) version of WSL that supports GUI applications natively.
