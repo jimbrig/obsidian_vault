@@ -1,11 +1,24 @@
 ---
 creation date: 2021-04-28 10:15
 modification date: Wednesday 28th April 2021 10:15:09
-tags: ["#gcp", "dev"]
+tags: ["#gcp", "#dev"]
 author: Jimmy Briggs
 ---
 
 # Google Cloud Setup Notes
+
+## Reference
+
+- [How-to Guides  |  Cloud SDK Documentation  |  Google Cloud](https://cloud.google.com/sdk/docs/how-to)
+- [Quickstart: Getting started with Cloud SDK  |  Cloud SDK Documentation (google.com)](https://cloud.google.com/sdk/docs/quickstart)
+- [Installing Google Cloud SDK  |  Cloud SDK Documentation](https://cloud.google.com/sdk/docs/install)
+- [The gcloud command-line tool cheat sheet  |  Cloud SDK Documentation (google.com)](https://cloud.google.com/sdk/docs/cheatsheet)
+- [gcloud command-line tool overview  |  Cloud SDK Documentation (google.com)](https://cloud.google.com/sdk/gcloud)
+- [Initializing Cloud SDK  |  Cloud SDK Documentation  |  Google Cloud](https://cloud.google.com/sdk/docs/initializing)
+- [Managing SDK Components  |  Cloud SDK Documentation  |  Google Cloud](https://cloud.google.com/sdk/docs/components)
+- [Managing SDK Properties  |  Cloud SDK Documentation  |  Google Cloud](https://cloud.google.com/sdk/docs/properties)
+- [Scripting gcloud tool commands  |  Cloud SDK Documentation (google.com)](https://cloud.google.com/sdk/docs/scripting-gcloud)
+- [Quickstart  |  Secret Manager Documentation  |  Google Cloud](https://cloud.google.com/secret-manager/docs/quickstart)
 
 ## Environment Setup and Configuration
 
@@ -20,6 +33,5 @@ author: Jimmy Briggs
    - Using a dedicated `service account`
 
 ***
-Links: 
-Source:
-
+Links: [[Install gcloud SDK on Ubuntu]]
+Source: [How-to Guides  |  Cloud SDK Documentation  |  Google Cloud](https://cloud.google.com/sdk/docs/how-to)

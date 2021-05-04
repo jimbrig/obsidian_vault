@@ -1,16 +1,12 @@
 ---
 creation date: 2021-05-04 19:40
 modification date: Tuesday 4th May 2021 19:40:23
-tags: ["#note"]
+tags: ["#gcp", "#dev"]
 author: Jimmy Briggs
 ---
 
 # Install gcloud SDK on Ubuntu
-
-## Install gcloud sdk
-
 Follow the instruction below to install the Cloud SDK:
-
 1.  Add the Cloud SDK distribution URI as a package source:
     
 ```bash
@@ -20,7 +16,7 @@ sudo apt-get install apt-transport-https ca-certificates
     
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
 ```
-    
+
 2.  Update and install the Cloud SDK:
     
 ```bash
@@ -34,6 +30,7 @@ gcloud init
 ```
 
 ***
-Links: 
-Source:
-
+Links: [[Cloud/Google Cloud Setup Notes]]
+Source: 
+- [Useful Google Cloud Platform Commands Cheat Sheet](https://chriskyfung.github.io/blog/qwiklabs/useful-google-cloud-platform-commands-cheat-sheet)
+- [Installing Google Cloud SDK  |  Cloud SDK Documentation](https://cloud.google.com/sdk/docs/install)
