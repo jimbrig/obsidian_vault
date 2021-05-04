@@ -1,3 +1,4 @@
+- 2021-05-03 at 20h10 · [[Mermaid Diagrams]]
 - 2021-05-03 at 13h12 · [[R Shiny Packages]]
 - 2021-05-03 at 13h05 · [[Useful Packages in R List]]
 - 2021-05-03 at 12h01 · [[2021-05-03]]
@@ -7,4 +8,3 @@
 - 2021-05-03 at 02h16 · [[Firefox Developer Edition]]
 - 2021-05-03 at 02h16 · [[index]]
 - 2021-05-03 at 02h16 · [[index]]
-- 2021-05-03 at 02h16 · [[README]]
