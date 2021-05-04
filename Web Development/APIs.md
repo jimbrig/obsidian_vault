@@ -7,7 +7,7 @@ author: Jimmy Briggs
 
 # APIs
 
-![[zapier-introduction-to-apis.pdf]]
+![[_assets/zapier-introduction-to-apis.pdf]]
 
 ***
 Links: [[System Design]]
