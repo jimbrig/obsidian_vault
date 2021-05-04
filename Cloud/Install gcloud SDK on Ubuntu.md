@@ -55,7 +55,8 @@ Before you install Cloud SDK, make sure that your operating system is one of the
 
 1.  Add the Cloud SDK distribution URI as a package source:
     
-    echo "deb \[signed-by=/usr/share/keyrings/cloud.google.gpg\] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list
+```bash
+echo "deb \[signed-by=/usr/share/keyrings/cloud.google.gpg\] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list
     
     Make sure you have [apt-transport-https](https://packages.debian.org/jessie/apt-transport-https) installed:
     

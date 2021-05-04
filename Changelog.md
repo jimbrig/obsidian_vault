@@ -1,4 +1,4 @@
-- 2021-05-04 at 19h50 · [[Install gcloud SDK on Ubuntu]]
+- 2021-05-04 at 19h54 · [[Install gcloud SDK on Ubuntu]]
 - 2021-05-04 at 19h48 · [[Google Cloud APIs]]
 - 2021-05-04 at 19h47 · [[Install gcloud SDK on Windows]]
 - 2021-05-04 at 19h44 · [[Google Cloud Setup Notes]]
