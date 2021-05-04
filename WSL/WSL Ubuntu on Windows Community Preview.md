@@ -14,5 +14,5 @@ Can only download from [this link to Windows Store](https://www.microsoft.com/en
 
 ***
 Links: [MS Store Link](https://www.microsoft.com/en-us/p/ubuntu-on-windows-community-preview/9p9q5zh1hrr0?rtc=1&activetab=pivot:overviewtab) | [Article by Microsoft]()
-Source:
+Source: [Announcing Ubuntu on Windows Community Preview – WSL 2 | Ubuntu](https://ubuntu.com/blog/announcing-ubuntu-on-windows-community-preview-wsl-2)
 
