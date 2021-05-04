@@ -1,4 +1,6 @@
-- 2021-05-03 at 20h38 · [[WSL Commands and Installs]]
+- 2021-05-04 at 19h40 · [[Install gcloud SDK on Ubuntu]]
+- 2021-05-04 at 19h39 · [[WSL Commands and Installs]]
+- 2021-05-04 at 19h35 · [[2021-05-04]]
 - 2021-05-03 at 20h34 · [[WSLg]]
 - 2021-05-03 at 20h25 · [[WSL Ubuntu on Windows Community Preview]]
 - 2021-05-03 at 20h24 · [[APIs]]
@@ -6,5 +8,3 @@
 - 2021-05-03 at 20h24 · [[Firefox Developer Edition]]
 - 2021-05-03 at 20h24 · [[APIs]]
 - 2021-05-03 at 20h24 · [[Web Browsers]]
-- 2021-05-03 at 20h24 · [[Firefox Developer Edition]]
-- 2021-05-03 at 20h22 · [[WSL]]
