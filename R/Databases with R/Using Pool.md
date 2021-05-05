@@ -23,7 +23,31 @@ The main difference to consider here is that `poolCreate` builds off an existing
 #### Usage
 
 ```R
-factory <- function() dbx::dbxConnect(<url>) # note no arguments passed to factory function
+library(DBI)
+library(RPostgres)
+library(pool)
+library(dbx)
+library(connections)
+
+# using DBI as factory
+
+factory_fn_dbi <- function() { # note: no args in the factory function
+  DBI::dbConnect(
+    Postgres(), 
+    host = "<host>", 
+    dbname = "<dbname>",
+    user = "postgres", 
+    password = "<password>", 
+    port = "5432"
+  )
+}
+
+pool <- poolCreate(factory = factory_fn_dbi)
+
+# using dbx as factory
+
+factory_fn_dbx <- function() dbx::dbxConnect(<url>) # note no arguments passed to factory function
+factory_fn_dbi <- 
 pool <- poolCreate(
   factory,
   minSize = 1,
