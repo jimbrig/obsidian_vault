@@ -157,15 +157,55 @@ factory_fn <- function() DBI::dbConnect(<connection_params>)
 
 pool <- poolCreate(factory_fn)
 
-class(pool)
+> class(pool)
 
-> [1] "Pool" "R6"
+[1] "Pool" "R6"
+
+> str(pool)
+
+Classes 'Pool', 'R6' <Pool>
+  Public:
+    clone: function (deep = FALSE) 
+    close: function () 
+    counters: environment
+    fetch: function () 
+    idleTimeout: 60
+    initialize: function (factory, minSize, maxSize, idleTimeout, validationInterval, 
+    maxSize: Inf
+    minSize: 1
+    release: function (object) 
+    state: NULL
+    valid: TRUE
+    validationInterval: 600
+		
+  Private:
+    cancelScheduledTask: function (object, task) 
+    changeObjectStatus: function (object, to) 
+    checkValid: function (object) 
+    checkValidTemplate: function (object, errorFun) 
+    createObject: function () 
+    destroyObject: function (object) 
+    factory: function () 
+    freeObjects: environment
+    idCounter: 2
+    validate: function (object)  
+		
 ```
 
 As you can see above a `pool` object in R is classified with two classes: `R6` and `Pool` which can be useful in many ways:
 - To determine a connections type for reference/informational purposes
 - Dispatch generic methods onto the connection objects by utilizing their inherited classes (i.e. through `if (inherits(conn, "R6"`) corresponding methods connections bases off their inherited classes. 
-		- As opposed to a direct DBI connection w
+		- As opposed to a direct DBI connection which would inherit the class of the database driver's specifications: i.e.
+
+```R
+conn <- poolCheckout(pool)
+
+
+
+class(conn)
+
+
+```
 
 ## S4 method for signature 'Pool'
 
