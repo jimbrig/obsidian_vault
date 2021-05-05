@@ -98,7 +98,7 @@ pool <- poolCreate(factory_fn)
 
 class(pool)
 
-> [1] "Pool" "R6" 
+> [1] "Pool" "R6"
 ```
 
 As you can see above a `pool` object in R is classified with two classes: `R6` and `Pool` which can be useful in many ways:
