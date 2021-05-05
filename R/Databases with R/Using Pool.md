@@ -82,8 +82,6 @@ pool <- pool::dbPool(drv = RPostres::Postgres(), < database connection arguments
 
 ### The `pool` Object:
 
-As you can see below a `pool` object in R is classified with two classes: `R6` and `Pool` which can be useful to determine a connections type as well as dispatch generic methods onto connections bases off their inherited classes. 
-
 ```R
 pool <- poolCreate(
   factory,
@@ -103,7 +101,9 @@ class(pool)
 > [1] "Pool" "R6" 
 ```
 
-
+As you can see above a `pool` object in R is classified with two classes: `R6` and `Pool` which can be useful in many ways:
+- To determine a connections type for reference/informational purposes
+- Dispatch generic methods onto the connection objects by utilizing their inherited classes (i.e. through `if (inherits(conn, "R6"`) corresponding methods connections bases off their inherited classes. 
 
 
 
