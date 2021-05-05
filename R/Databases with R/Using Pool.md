@@ -16,6 +16,30 @@ Connection Methods:
 
 ### poolCreate
 
+`poolCreate` is an **S4** class for compatibility with the `DBI` methods.
+
+The main difference to consider here is that `poolCreate` builds off an existing `factory` function responsible for the generation of the objects that the pool will hold (ex: for DBI database connections, this function is `dbConnect`). **It must take no arguments.**
+
+#### Usage
+
+```R
+factory <- function() dbx::dbxConnect(<url>) # note no arguments passed to factory function
+pool <- poolCreate(
+  factory,
+  minSize = 1,
+  maxSize = Inf,
+  idleTimeout = 60,
+  validationInterval = 600,
+  state = NULL
+)
+
+pool::poolClose(pool)
+```
+
+### The `pool` Object:
+
+As you can see below a `pool` object in R is 
+
 ```R
 pool <- poolCreate(
   factory,
@@ -25,11 +49,12 @@ pool <- poolCreate(
   validationInterval = 600,
   state = NULL
 )
-```
 
-in conjunction with: `pool::poolClose(pool)`.
+class(pool)
 
-`poolCreate` is an **S4** class for compatibility with the `DBI` methods.
+
+
+
 
 
 
