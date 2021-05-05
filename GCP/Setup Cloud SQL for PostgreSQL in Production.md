@@ -156,20 +156,18 @@ gcloud sql users list --instance=postgresql01
 The output is similar to the following:
 
 ```powershell
-
+NAME       HOSTPostgres
 ```
-    NAME       HOSTPostgres
-    ```
-    
+   
 2.  Create the `appuser` user account, set the password, and delete `appuser`:
-    
-    gcloud sql users create appuser \\
-        --instance=postgresql01 --password=PASSWORD
-    
-    gcloud sql users set-password appuser \\
-        --host=% --instance=postgresql01 --prompt-for-password
-    
-    gcloud sql users delete appuser --instance=postgresql01 
+
+```powershell
+gcloud sql users create appuser --instance=postgresql01 --password=<PASSWORD>
+
+gcloud sql users set-password appuser --host=% --instance=postgresql01 --prompt-for-password
+
+gcloud sql users delete appuser --instance=postgresql01
+```
 
 ## Monitoring and alerting
 
@@ -196,10 +194,13 @@ You can monitor read-replicas through the Cloud Console the same way that you mo
 
 Alternatively, you can check the replication status from the command line:
 
+```powershell
 gcloud sql instances describe REPLICA\_NAME 
+```
 
 A third option is to check the replication status through a PostgreSQL client. The following PostgreSQL command checks the read-replica status:
 
+```sql
 postgres=> \\x on
 Expanded display is on.
 postgres=> select \* from pg\_stat\_replication;
@@ -225,6 +226,7 @@ sync\_priority    | 0
 sync\_state       | async
 reply\_time       | 2020-09-28 07:17:52.714969+00
 postgres=> 
+```
 
 ### PostgreSQL database monitoring
 
@@ -232,10 +234,15 @@ This section describes some additional monitoring tasks that are considered rout
 
 #### Session monitoring
 
-Oracle sessions are monitored by querying the dynamic performance views known as the "V$" views. The `V$SESSION` and the `V$PROCESS` views are commonly used to gain real-time insights about current database activity through SQL statements. You can monitor session activity in PostgreSQL in a similar manner, both through PostgreSQL commands and SQL statements.
+Oracle sessions are monitored by querying the dynamic performance views known as the `"V$"views`. 
+
+The `V$SESSION` and the `V$PROCESS` views are commonly used to gain real-time insights about current database activity through SQL statements. 
+
+You can monitor session activity in PostgreSQL in a similar manner, both through PostgreSQL commands and SQL statements.
 
 The PostgreSQL [`pg_stat_activity`](https://www.postgresql.org/docs/12/monitoring-stats.html#PG-STAT-ACTIVITY-VIEW) dynamic view provides detailed information on current database session activity:
 
+```sql
 postgres=> \\x on
 postgres=> select \* from pg\_stat\_activity where backend\_type = 'client backend' and usename != 'cloudsqladmin';
 -\[ RECORD 1 \]----+-----------------------------------------------------------------------------------------------------
@@ -260,6 +267,7 @@ backend\_xmin     | 88513
 query            | select \* from pg\_stat\_activity where backend\_type = 'client backend' and usename != 'cloudsqladmin';
 backend\_type     | client backend
 postgres=> 
+```
 
 #### Long transaction monitoring
 
