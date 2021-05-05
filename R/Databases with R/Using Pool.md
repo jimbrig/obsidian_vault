@@ -5,7 +5,7 @@ tags: ["#r", "#databases"]
 author: Jimmy Briggs
 ---
 
-# Using Pool vs. DBI
+# Using Pool, DBI, and Other Drivers
 
 ## Pool
 
@@ -13,6 +13,10 @@ Connection Methods:
 
 1. `pool::poolCreate( ... )`
 2. `pool::dbPool( ... )`
+
+### DBI Connection Methods:
+
+As a convenience, Pool implements DBIConnection methods; calling any implemented DBI method directly on a Pool object will result in a connection being checked out (with poolCheckout()), the operation being performed on that connection, and the connection being returned to the pool (with poolReturn()).
 
 ### poolCreate
 
@@ -105,25 +109,9 @@ As you can see above a `pool` object in R is classified with two classes: `R6` a
 - To determine a connections type for reference/informational purposes
 - Dispatch generic methods onto the connection objects by utilizing their inherited classes (i.e. through `if (inherits(conn, "R6"`) corresponding methods connections bases off their inherited classes. 
 
-
-
-S4 class for compatibility with DBI methods
-Description
-A generic pool class that holds objects. These can be fetched
-
-Usage
-poolCreate(
-  factory,
-  minSize = 1,
-  maxSize = Inf,
-  idleTimeout = 60,
-  validationInterval = 600,
-  state = NULL
-)
-
-poolClose(pool)
-
 ## S4 method for signature 'Pool'
+
+
 poolClose(pool)
 Arguments
 factory	
