@@ -119,6 +119,10 @@ The original versions by R-Core can be found here: [Index of R Manuals](https://
 
 - [Mongolite User Manual](https://jeroen.github.io/mongolite/) This book provides a high level introduction to using MongoDB with the mongolite client in R.
 
+## APIs
+
+- [Chapter 1 Preamble | HTTP testing in R (ropensci.org)](https://books.ropensci.org/http-testing/index.html)
+
 ## Financial
 
 - [Techincal Analysis with R](https://bookdown.org/kochiuyu/Technical-Analysis-with-R/) This short book is a short introduction on how to use R and RStudio to do financial data analysis from the beginning. No prior knowledge of R is required. While you will learn various skills to work on R programming but the main goal is to learn how to use R to backtest a trading strategy and evaluate its performance.
