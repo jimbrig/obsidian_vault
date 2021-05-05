@@ -7,6 +7,8 @@ author: Jimmy Briggs
 
 # Using Pool, DBI, and Other Drivers
 
+The R PAckage `pool` enables the creation of object pools, which make it less computationally expensive to fetch a new object. Currently the only supported pooled objects are 'DBI' connections.
+
 ## Pool
 
 Connection Methods:
@@ -16,7 +18,62 @@ Connection Methods:
 
 ### DBI Connection Methods:
 
-As a convenience, Pool implements DBIConnection methods; calling any implemented DBI method directly on a Pool object will result in a connection being checked out (with poolCheckout()), the operation being performed on that connection, and the connection being returned to the pool (with poolReturn()).
+As a convenience, Pool implements DBIConnection methods; calling any implemented DBI method directly on a Pool object will result in a connection being checked out (with `poolCheckout()`), the operation being performed on that connection, and the connection being returned to the pool (with `poolReturn()`).
+
+Pool cannot implement the `DBI::dbSendQuery()` and `DBI::dbSendStatement()` methods because they both return live ResultSet objects. This is incompatible with the Pool model, because once a connection is returned to the pool, using an existing ResultSet object could give erroneous results, throw an error, or even crash the entire R process. In most cases, `DBI::dbGetQuery()` and `DBI::dbExecute()` can be used instead. If you really need the control that `dbSendQuery` gives you (for example, to process a large table in chunks) then use `poolCheckout()` to get a real connection object (and don't forget to return it to the pool using `poolReturn()` afterwards).
+
+Usage:
+
+```R
+## S4 method for signature 'Pool'
+dbSendQuery(conn, statement, ...)
+
+## S4 method for signature 'Pool,ANY'
+dbSendStatement(conn, statement, ...)
+
+## S4 method for signature 'Pool,character'
+dbGetQuery(conn, statement, ...)
+
+## S4 method for signature 'Pool,character'
+dbExecute(conn, statement, ...)
+
+## S4 method for signature 'Pool'
+dbListResults(conn, ...)
+
+## S4 method for signature 'Pool,character'
+dbListFields(conn, name, ...)
+
+## S4 method for signature 'Pool'
+dbListTables(conn, ...)
+
+## S4 method for signature 'Pool'
+dbListObjects(conn, prefix = NULL, ...)
+
+## S4 method for signature 'Pool,character'
+dbReadTable(conn, name, ...)
+
+## S4 method for signature 'Pool,ANY'
+dbWriteTable(conn, name, value, ...)
+
+## S4 method for signature 'Pool'
+dbCreateTable(conn, name, fields, ..., row.names = NULL, temporary = FALSE)
+
+## S4 method for signature 'Pool'
+dbAppendTable(conn, name, value, ..., row.names = NULL)
+
+## S4 method for signature 'Pool,ANY'
+dbExistsTable(conn, name, ...)
+
+## S4 method for signature 'Pool,ANY'
+dbRemoveTable(conn, name, ...)
+
+## S4 method for signature 'Pool'
+dbIsReadOnly(dbObj, ...)
+```
+
+Where `conn` and `dbObj` are **Pool** objects, as returned by `dbPool()`.
+
+See DBI Documentation for remaining parameters/arguments.
 
 ### poolCreate
 
@@ -66,7 +123,7 @@ pool <- poolCreate(factory = factory_fn_dbx)
 pool::poolClose(pool)
 ```
 
-#### dbPool
+### dbPool
 
 `dbPool` Creates a DBI Database Connection Pool serving as a wrapper around `poolCreate` to simplify the creation of a DBI database connection pool.
 
@@ -108,6 +165,7 @@ class(pool)
 As you can see above a `pool` object in R is classified with two classes: `R6` and `Pool` which can be useful in many ways:
 - To determine a connections type for reference/informational purposes
 - Dispatch generic methods onto the connection objects by utilizing their inherited classes (i.e. through `if (inherits(conn, "R6"`) corresponding methods connections bases off their inherited classes. 
+		- As opposed to a direct DBI connection w
 
 ## S4 method for signature 'Pool'
 
