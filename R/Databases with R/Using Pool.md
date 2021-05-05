@@ -20,16 +20,17 @@ Connection Methods:
 
 The main difference to consider here is that `poolCreate` builds off an existing `factory` function responsible for the generation of the objects that the pool will hold (ex: for DBI database connections, this function is `dbConnect`). **It must take no arguments.**
 
-#### Usage
+#### Example Usage
+
+Will provide two example `factory` functions to pass to `pool::poolCreate`, one using `DBI` and the other using `dbx`:
+
+- DBI:
 
 ```R
 library(DBI)
-library(RPostgres)
-library(pool)
-library(dbx)
-library(connections)
 
-# using DBI as factory
+
+# DBI factory function
 
 factory_fn_dbi <- function() { # note: no args in the factory function
   DBI::dbConnect(
@@ -44,21 +45,26 @@ factory_fn_dbi <- function() { # note: no args in the factory function
 
 pool <- poolCreate(factory = factory_fn_dbi)
 
-# using dbx as factory
+pool::poolClose(pool)
+```
 
-factory_fn_dbx <- function() dbx::dbxConnect(<url>) # note no arguments passed to factory function
-factory_fn_dbi <- 
-pool <- poolCreate(
-  factory,
-  minSize = 1,
-  maxSize = Inf,
-  idleTimeout = 60,
-  validationInterval = 600,
-  state = NULL
-)
+- dbx:
+
+```R
+library(dbx)
+library(RPostgres)
+library(pool)
+
+factory_fn_dbx <- function() dbx::dbxConnect(<database-URI>)
+
+pool <- poolCreate(factory = factory_fn_dbx)
 
 pool::poolClose(pool)
 ```
+
+#### dbPool
+
+
 
 ### The `pool` Object:
 
