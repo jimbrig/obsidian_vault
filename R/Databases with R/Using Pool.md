@@ -64,7 +64,21 @@ pool::poolClose(pool)
 
 #### dbPool
 
+`dbPool` Creates a DBI Database Connection Pool serving as a wrapper around `poolCreate` to simplify the creation of a DBI database connection pool.
 
+Check the documentation of `poolCreate()` for a generic overview of the parent function and the Pool object. 
+
+The main thing to point out is that, for `dbPool`,  **you always need to provide a DBI driver** (i.e. of class DBI::DBIDriver-class()), and it should always be accompanied by the required authorization arguments (see the example below).
+
+```R
+dbPool(drv, ..., validateQuery = NULL)
+```
+
+Example:
+
+```R
+pool <- pool::dbPool(drv = RPostres::Postgres(), < database connection arguments >)
+```
 
 ### The `pool` Object:
 
@@ -81,6 +95,8 @@ pool <- poolCreate(
 )
 
 class(pool)
+
+# "R6" ""
 
 
 
