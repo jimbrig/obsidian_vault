@@ -57,20 +57,28 @@ Before you install Cloud SDK, make sure that your operating system is one of the
     
 ```bash
 echo "deb \[signed-by=/usr/share/keyrings/cloud.google.gpg\] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list
+```
+
+Make sure you have [apt-transport-https](https://packages.debian.org/jessie/apt-transport-https) installed:
     
-    Make sure you have [apt-transport-https](https://packages.debian.org/jessie/apt-transport-https) installed:
+```bash
+sudo apt\-get install apt\-transport\-https ca\-certificates gnupg
+```
+
+**Note:** If your distribution does not support the signed-by option run this command instead:
     
-    sudo apt\-get install apt\-transport\-https ca\-certificates gnupg
-    
-    **Note:** If your distribution does not support the signed-by option run this command instead:
-    
-    echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list
-    
-    **Note:** Make sure you do not have duplicate entries for the cloud-sdk repo.
+```bash
+echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list
+```
+
+**Note:** Make sure you do not have duplicate entries for the cloud-sdk repo.
     
 2.  Import the Google Cloud public key:
+
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | sudo apt\-key \--keyring /usr/share/keyrings/cloud.google.gpg add \-
+```
     
-    curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | sudo apt\-key \--keyring /usr/share/keyrings/cloud.google.gpg add \-
     
     **Note:** If you are unable to get latest updates due to an expired key, [obtain the latest apt-get.gpg key file](https://cloud.google.com/compute/docs/troubleshooting/known-issues#keyexpired).
     
