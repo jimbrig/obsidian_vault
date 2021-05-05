@@ -200,38 +200,27 @@ As you can see above a `pool` object in R is classified with two classes: `R6` a
 ```R
 conn <- poolCheckout(pool)
 
+> class(conn)
 
+[1] "PqConnection"
+attr(,"package")
 
-class(conn)
+[1] "RPostgres"
 
+> str(conn)
 
+Formal class 'PqConnection' [package "RPostgres"] with 5 slots
+  ..@ ptr         :<externalptr> 
+  ..@ bigint      : chr "integer64"
+  ..@ timezone    : chr "UTC"
+  ..@ timezone_out: chr "UTC"
+  ..@ typnames    :'data.frame':	487 obs. of  2 variables:
+  .. ..$ oid    : int [1:487] 16 17 18 19 20 21 22 23 24 25 ...
+  .. ..$ typname: chr [1:487] "bool" "bytea" "char" "name" ...
 ```
 
-## S4 method for signature 'Pool'
+Notice that by checking out the pool object using `conn <- pool::poolCheckout(pool)` the newly created `conn` connection argument now resembles the default `DBI::dbConnect(...)` returning object's attributes, classes, etc.
 
-
-poolClose(pool)
-Arguments
-factory	
-A factory function responsible for the generation of the objects that the pool will hold (ex: for DBI database connections, this function is dbConnect). It must take no arguments.
-
-minSize	
-An optional number specifying the minimum number of objects that the pool should have at all times.
-
-maxSize	
-An optional number specifying the maximum number of objects that the pool may have at any time.
-
-idleTimeout	
-The number of seconds that an idle object will be kept in the pool before it is destroyed (only applies if the number of objects is over the minSize). Use Inf if you want created objects never to be destroyed (there isn't a great reason for this usually).
-
-validationInterval	
-The minimum number of seconds that pool will wait before running a validation check on the next checked out object. By not necessarily validating every checked out object, there can be substantial performance gains (especially if the interval between checking out new objects is very small).
-
-state	
-A pool public variable to be used by backend authors as necessary.
-
-pool	
-A Pool object previously created with poolCreate
 
 ***
 Links: 
