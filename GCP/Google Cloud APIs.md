@@ -8,6 +8,6 @@ author: Jimmy Briggs
 # Google Cloud APIs
 
 ***
-Links: [[Google Cloud APIs]] | [[Google Cloud Setup Notes]]
+Links: [[Google Cloud APIs]] | [[GCP/Google Cloud Setup Notes]]
 Source: [Google APIs Explorer  |  Google Developers](https://developers.google.com/apis-explorer)
 

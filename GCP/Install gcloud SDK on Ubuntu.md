@@ -78,47 +78,55 @@ echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee \-a /
 ```bash
 curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | sudo apt\-key \--keyring /usr/share/keyrings/cloud.google.gpg add \-
 ```
+
+**Note:** If you are unable to get latest updates due to an expired key, [obtain the latest apt-get.gpg key file](https://cloud.google.com/compute/docs/troubleshooting/known-issues#keyexpired).
     
+**Note:** If your distribution's apt-key command does not support the --keyring argument run this command instead:
     
-    **Note:** If you are unable to get latest updates due to an expired key, [obtain the latest apt-get.gpg key file](https://cloud.google.com/compute/docs/troubleshooting/known-issues#keyexpired).
-    
-    **Note:** If your distribution's apt-key command does not support the --keyring argument run this command instead:
-    
-    curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | sudo apt\-key add \-
-    
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | sudo apt\-key add \-
+```
+
 3.  Update and install the Cloud SDK:
     
-    sudo apt\-get update && sudo apt\-get install google\-cloud\-sdk
+```bash
+sudo apt\-get update && sudo apt\-get install google\-cloud\-sdk
+```
+
+For additional `apt-get` options, such as disabling prompts or dry runs, refer to the [`apt-get` man pages](https://linux.die.net/man/8/apt-get).
     
-    For additional `apt-get` options, such as disabling prompts or dry runs, refer to the [`apt-get` man pages](https://linux.die.net/man/8/apt-get).
-    
-    **Docker Tip:** If installing the Cloud SDK inside a Docker image, use a single RUN step instead:
-    
-    RUN echo "deb \[signed-by=/usr/share/keyrings/cloud.google.gpg\] http://packages.cloud.google.com/apt cloud-sdk main" | tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | apt\-key \--keyring /usr/share/keyrings/cloud.google.gpg  add \- && apt\-get update \-y && apt\-get install google\-cloud\-sdk \-y 
-    
+**Docker Tip:** If installing the Cloud SDK inside a Docker image, use a single RUN step instead:
+
+```
+RUN echo "deb \[signed-by=/usr/share/keyrings/cloud.google.gpg\] http://packages.cloud.google.com/apt cloud-sdk main" | tee \-a /etc/apt/sources.list.d/google\-cloud\-sdk.list && curl https://packages.cloud.google.com/apt/doc/apt\-key.gpg | apt\-key \--keyring /usr/share/keyrings/cloud.google.gpg  add \- && apt\-get update \-y && apt\-get install google\-cloud\-sdk \-y 
+```
+
 4.  Optionally, install any of these [additional components](https://cloud.google.com/sdk/docs/components#additional_components):
+
+-  `google-cloud-sdk-app-engine-python`
+-   `google-cloud-sdk-app-engine-python-extras`
+-   `google-cloud-sdk-app-engine-java`
+-   `google-cloud-sdk-app-engine-go`
+-   `google-cloud-sdk-bigtable-emulator`
+-   `google-cloud-sdk-cbt`
+-   `google-cloud-sdk-cloud-build-local`
+-   `google-cloud-sdk-datalab`
+-   `google-cloud-sdk-datastore-emulator`
+-   `google-cloud-sdk-firestore-emulator`
+-   `google-cloud-sdk-pubsub-emulator`
+-   `kubectl`
     
-    -   `google-cloud-sdk-app-engine-python`
-    -   `google-cloud-sdk-app-engine-python-extras`
-    -   `google-cloud-sdk-app-engine-java`
-    -   `google-cloud-sdk-app-engine-go`
-    -   `google-cloud-sdk-bigtable-emulator`
-    -   `google-cloud-sdk-cbt`
-    -   `google-cloud-sdk-cloud-build-local`
-    -   `google-cloud-sdk-datalab`
-    -   `google-cloud-sdk-datastore-emulator`
-    -   `google-cloud-sdk-firestore-emulator`
-    -   `google-cloud-sdk-pubsub-emulator`
-    -   `kubectl`
-    
-    For example, the `google-cloud-sdk-app-engine-java` component can be installed as follows:
-    
-    sudo apt\-get install google\-cloud\-sdk\-app\-engine\-java
-    
+For example, the `google-cloud-sdk-app-engine-java` component can be installed as follows:
+
+```bash
+sudo apt\-get install google\-cloud\-sdk\-app\-engine\-java
+```
+
 5.  Run [`gcloud init`](https://cloud.google.com/sdk/gcloud/reference/init) to get started:
-    
-    gcloud init
-    
+
+```bash
+gcloud init
+```
 
 **Downgrading Cloud SDK versions**
 
@@ -252,7 +260,7 @@ Run these `gcloud` commands to view information about your Cloud SDK installatio
 -   Install additional components such as the App Engine emulators or `kubectl` using the [Cloud SDK component manager](https://cloud.google.com/sdk/gcloud/guide/managing-components).
 
 ***
-Links: [[Cloud/Google Cloud Setup Notes]]
+Links: [[GCP/Google Cloud Setup Notes]]
 Source: 
 - [Useful Google Cloud Platform Commands Cheat Sheet](https://chriskyfung.github.io/blog/qwiklabs/useful-google-cloud-platform-commands-cheat-sheet)
 - [Installing Google Cloud SDK  |  Cloud SDK Documentation](https://cloud.google.com/sdk/docs/install)

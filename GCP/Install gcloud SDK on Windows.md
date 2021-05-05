@@ -76,6 +76,6 @@ After you have installed Cloud SDK, you can use commands in the [`gcloud compone
 If you'd need an older version of Cloud SDK to revert to, you can find all previous releases available to download from [this archive](https://storage.cloud.google.com/cloud-sdk-release).
 
 ***
-Links: [[Install gcloud SDK on Ubuntu]] | [[Cloud/Google Cloud Setup Notes]]
+Links: [[Install gcloud SDK on Ubuntu]] | [[GCP/Google Cloud Setup Notes]]
 Source: [Installing Google Cloud SDK  (Windows) |  Cloud SDK Documentation](https://cloud.google.com/sdk/docs/install#windows)
 
