@@ -1,3 +1,4 @@
+- 2021-05-06 at 17h53 · [[DevOps - Waterfall Method]]
 - 2021-05-06 at 11h12 · [[2021-05-06]]
 - 2021-05-05 at 16h25 · [[R Books]]
 - 2021-05-05 at 16h24 · [[HTTP Testing in R]]
@@ -7,4 +8,3 @@
 - 2021-05-05 at 00h31 · [[index]]
 - 2021-05-05 at 00h31 · [[index]]
 - 2021-05-05 at 00h31 · [[index]]
-- 2021-05-05 at 00h31 · [[README]]
