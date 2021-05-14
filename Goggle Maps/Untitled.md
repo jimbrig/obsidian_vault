@@ -232,17 +232,21 @@ https://maps.googleapis.com/maps/api/distancematrix/json?origins=Vancouver+BC|Se
 
 This request demonstrates using the XML `output` flag:
 
+```
 https://maps.googleapis.com/maps/api/distancematrix/xml?origins=Vancouver+BC|Seattle&destinations=San+Francisco|Victoria+BC&mode=bicycling&language=fr-FR&key=YOUR\_API\_KEY
+```
 
 This request will return four elements - two origins times two destinations:
 
-Vancouver to San Francisco
+|                            |                       |
+| -------------------------- | --------------------- |
+| Vancouver to San Francisco | Vancouver to Victoria |
+| Seattle to San Francisco   | Seattle to Victoria   |
+| -                           |              -        |
 
-Vancouver to Victoria
 
-Seattle to San Francisco
 
-Seattle to Victoria
+
 
 Results are returned in rows, each row containing one origin paired with each destination.
 
@@ -250,8 +254,73 @@ You can test this by entering the URL into your web browser (be sure to replace 
 
 Select the tabs below to see the sample JSON and XML responses.
 
-{  "status": "OK",  "origin\_addresses": \[  "Vancouver, BC, Canada",  "Seattle, État de Washington, États-Unis"  \],  "destination\_addresses": \[  "San Francisco, Californie, États-Unis",  "Victoria, BC, Canada"  \],  "rows": \[  {  "elements": \[  {  "status": "OK",  "duration": {  "value": 340110,  "text": "3 jours 22 heures"  },  "distance": {  "value": 1734542,  "text": "1 735 km"  }  },  {  "status": "OK",  "duration": {  "value": 24487,  "text": "6 heures 48 minutes"  },  "distance": {  "value": 129324,  "text": "129 km"  }  }  \]  },  {  "elements": \[  {  "status": "OK",  "duration": {  "value": 288834,  "text": "3 jours 8 heures"  },  "distance": {  "value": 1489604,  "text": "1 490 km"  }  },  {  "status": "OK",  "duration": {  "value": 14388,  "text": "4 heures 0 minutes"  },  "distance": {  "value": 135822,  "text": "136 km"  }  }  \]  }  \]  
-}  
+```json
+{
+  "status": "OK",
+  "origin_addresses": [
+    "Vancouver, BC, Canada",
+    "Seattle, État de Washington, États-Unis"
+  ],
+  "destination_addresses": [
+    "San Francisco, Californie, États-Unis",
+    "Victoria, BC, Canada"
+  ],
+  "rows": [
+    {
+      "elements": [
+        {
+          "status": "OK",
+          "duration": {
+            "value": 340110,
+            "text": "3 jours 22 heures"
+          },
+          "distance": {
+            "value": 1734542,
+            "text": "1 735 km"
+          }
+        },
+        {
+          "status": "OK",
+          "duration": {
+            "value": 24487,
+            "text": "6 heures 48 minutes"
+          },
+          "distance": {
+            "value": 129324,
+            "text": "129 km"
+          }
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "status": "OK",
+          "duration": {
+            "value": 288834,
+            "text": "3 jours 8 heures"
+          },
+          "distance": {
+            "value": 1489604,
+            "text": "1 490 km"
+          }
+        },
+        {
+          "status": "OK",
+          "duration": {
+            "value": 14388,
+            "text": "4 heures 0 minutes"
+          },
+          "distance": {
+            "value": 135822,
+            "text": "136 km"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
 
 Note that these results generally need to be _parsed_ if you wish to extract values from the results. Parsing JSON is relatively easy. See [Parsing JSON](https://developers.google.com/maps/documentation/distance-matrix/web-service-best-practices#ParsingJSON) for some recommended design patterns.
 
