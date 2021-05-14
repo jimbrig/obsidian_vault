@@ -70,17 +70,11 @@ Directions between multiple locations.
 
 Simple, embeddable map image with minimal code.
 
-Geocoding API
+### [Geocoding API](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com?project=powwater-test)
 
-
-
-Google
+![](https://lh3.googleusercontent.com/EMzbsH0qJXweaoeOxPia96kx0u2h9b-QoEggREKjjsPwBdEn4cO7zBTai1cywpw4TvZrOgJTRPMc4GNdykXN-w=w80-h40)
 
 Convert between addresses and geographic coordinates.
-
-
-
-](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com?project=powwater-test)
 
 ***
 Links: 
