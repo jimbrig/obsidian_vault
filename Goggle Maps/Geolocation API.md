@@ -40,77 +40,39 @@ By using this product you agree to the terms and conditions of the following lic
 
 ## More products to explore
 
-![](https://lh3.googleusercontent.com/yD6i9phOUSNHlg6VLvJljG9y1d1GkNyVc6CkeTkcAqnpdgavCBuP1Hv9LIdYhjhrHN4B1OToVpgejvMeYZ4=w80-h40)
+### [Roads API](https://console.cloud.google.com/apis/library/roads.googleapis.com?project=powwater-test)
 
-[Roads API](https://console.cloud.google.com/apis/library/roads.googleapis.com?project=powwater-test)
+![](https://lh3.googleusercontent.com/yD6i9phOUSNHlg6VLvJljG9y1d1GkNyVc6CkeTkcAqnpdgavCBuP1Hv9LIdYhjhrHN4B1OToVpgejvMeYZ4=w80-h40)
 
 Snap-to-road functionality to accurately trace GPS breadcrumbs.
 
-
-
-]()
-
-[
-
-
-
-Places API
-
-Google
+### [Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com?project=powwater-test)
+![](https://lh3.googleusercontent.com/aM04D4QrPf6q47d_lqt0ddjouD5Ilu64iBY0VEUmr99O3ITUMxT-f1erWZWT5qqBOcOqjYGGfx-_xeKZ38rd1g=w80-h40)
 
 Get detailed information about 100 million places
 
-
-
-](https://console.cloud.google.com/apis/library/places-backend.googleapis.com?project=powwater-test)
-
-[
+### [Maps JavaScript API](https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=powwater-test)
 
 ![](https://lh3.googleusercontent.com/EpyLchH-g-_fdOBM5uV7GzxfrhO2-mqJan33dksRDKlcIdt0yH7oVmUpHAKjwm_sRaJwzu7UFda32emEaQ=w80-h40)
 
-Maps JavaScript API
-
-Google
-
 Maps for your website
 
-
-
-](https://console.cloud.google.com/apis/library/maps-backend.googleapis.com?project=powwater-test)
-
-[
+### [Directions API](https://console.cloud.google.com/apis/library/directions-backend.googleapis.com?project=powwater-test)
 
 ![](https://lh3.googleusercontent.com/mTryNYAfFsQ3RAped43oxE-FI9VD8iuyzLhirwtv0MuXjxD984xO67iGclTZmsulcAY2S_MKcz7l4ymfuNdU=w80-h40)
-
-Directions API
-
-Google
 
 Directions between multiple locations.
 
 
-
-](https://console.cloud.google.com/apis/library/directions-backend.googleapis.com?project=powwater-test)
-
-[
+### [Maps Static API](https://console.cloud.google.com/apis/library/static-maps-backend.googleapis.com?project=powwater-test)
 
 ![](https://lh3.googleusercontent.com/bZKpWhTv6tTO6tdroIrH7sdHmhX7ao1w0KcokS2x3iFeNK0sxqdkRCAAKIXrZ6fXeL_b8oNZoPOqHjbeFvaz=w80-h40)
 
-Maps Static API
-
-Google
-
 Simple, embeddable map image with minimal code.
 
-
-
-](https://console.cloud.google.com/apis/library/static-maps-backend.googleapis.com?project=powwater-test)
-
-[
-
-![](https://lh3.googleusercontent.com/EMzbsH0qJXweaoeOxPia96kx0u2h9b-QoEggREKjjsPwBdEn4cO7zBTai1cywpw4TvZrOgJTRPMc4GNdykXN-w=w80-h40)
-
 Geocoding API
+
+
 
 Google
 
