@@ -1,3 +1,10 @@
+---
+creation date: 2021-05-14 11:40
+modification date: Friday 14th May 2021 11:40:30
+tags: ["#google", "#maps", "#dev"]
+author: Jimmy Briggs
+---
+
 ## Table of contents
 -   [Introduction](https://developers.google.com/maps/documentation/distance-matrix/overview#Introduction)
     -   [Before you begin](https://developers.google.com/maps/documentation/distance-matrix/overview#before-you-begin)
@@ -238,11 +245,11 @@ https://maps.googleapis.com/maps/api/distancematrix/xml?origins=Vancouver+BC|Sea
 
 This request will return four elements - two origins times two destinations:
 
-|                            |                       |
+|          From              |  To                   |
 | -------------------------- | --------------------- |
 | Vancouver to San Francisco | Vancouver to Victoria |
 | Seattle to San Francisco   | Seattle to Victoria   |
-| -                           |              -        |
+
 
 
 
@@ -415,3 +422,9 @@ The Google Maps API previously required that you include the `sensor` parameter 
 Except as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), and code samples are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0). For details, see the [Google Developers Site Policies](https://developers.google.com/site-policies). Java is a registered trademark of Oracle and/or its affiliates.
 
 Last updated 2021-05-14 UTC.
+
+***
+
+Links: [[Google Maps APIs]]
+
+Source: [Overview  |  Distance Matrix API  |  Google Developers](https://developers.google.com/maps/documentation/distance-matrix/overview)

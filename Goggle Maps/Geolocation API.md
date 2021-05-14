@@ -77,6 +77,6 @@ Simple, embeddable map image with minimal code.
 Convert between addresses and geographic coordinates.
 
 ***
-Links: 
+Links: [[Google Maps APIs]]
 Source: [Geolocation API – APIs & Services – powwater-test – Google Cloud Platform](https://console.cloud.google.com/apis/library/geolocation.googleapis.com?folder=&organizationId=&project=powwater-test)
 

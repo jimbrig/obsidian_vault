@@ -90,7 +90,7 @@ Convert between addresses and geographic coordinates.
 [Maps URLs](https://developers.google.com/maps/documentation/urls/guide). Launch Google Maps and initiate an action, like search or directions, using a common, cross-platform URL scheme.
 
 ***
-Links: 
+Links: [[Google Maps APIs]] | [[Getting directions through the Directions API]] | [[Geolocation API]] | [[Distance Matrix Docs]]
 Source:  [Google Maps Platform APIs by Platform  |  Google Developers](https://developers.google.com/maps/apis-by-platform)
 
 
