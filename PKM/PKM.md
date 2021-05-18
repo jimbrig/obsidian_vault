@@ -7,28 +7,13 @@ author: Jimmy Briggs
 
 # PKM- Contents
 
+## Notes
+
+- [[Goals of a Note Taking System]]
+
 ## Obsidian
 
-![[O]]
-
-- Notes:
-	- [[Obsidian]]
-		- [[Advanced Tables Plugin Help]]
-		- [[Mermaid Diagrams]]
-		- [[Obsidian Git Plugin Notes]]
-		- [[Publishing Workflow]]
-		- [[Templater Plugin Notes]]
-
-- Links:
-	- [Obsidian](https://obsidian.md/)
-	- [Obsidian Forum](https://forum.obsidian.md/)
-	- [Obsidian (@obsdmd) / Twitter](https://twitter.com/obsdmd)
-	- [ObsidianMD (reddit.com)](https://www.reddit.com/r/ObsidianMD/)
-	- [Obsidian Markdown Reference | Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
-	- [Obsidian.md · GitHub](https://github.com.cnpmjs.org/obsidianmd)
-
-	- Articles:
-		- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
+![[Obsidian]]
 
 ## PARA
 > Projects, Areas, Resources, Archives

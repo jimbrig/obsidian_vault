@@ -9,8 +9,28 @@ author: Jimmy Briggs
 
 ## Contents
 
-- [[PKM/Obsidian/Templater Plugin Notes|Templater]]
-- [[PKM/Obsidian/Obsidian Git Plugin Notes|Obsidian Git]]
+### Notes
+
+- [[Advanced Tables Plugin Help]]
+- [[Mermaid Diagrams]]
+- [[Obsidian Git Plugin Notes]]
+- [[Publishing Workflow]]
+- [[Templater Plugin Notes]]
+
+### Links
+
+- [Obsidian](https://obsidian.md/)
+- [Obsidian Forum](https://forum.obsidian.md/)
+- [Obsidian (@obsdmd) / Twitter](https://twitter.com/obsdmd)
+- [ObsidianMD (reddit.com)](https://www.reddit.com/r/ObsidianMD/)
+- [Obsidian Markdown Reference | Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
+- [Obsidian.md · GitHub](https://github.com.cnpmjs.org/obsidianmd)
+
+### Articles
+
+- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
+- [Search - Obsidian Help](https://help.obsidian.md/Plugins/Search)
+
 
 ## Github 
 
