@@ -7,8 +7,6 @@ author: Jimmy Briggs
 
 # <% tp.file.title %>- Contents
 
-## Contents:
-
 
 ***
 Backlinks:

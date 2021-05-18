@@ -9,8 +9,8 @@ author: Jimmy Briggs
 
 ## Contents
 
-- [[Templater Plugin Notes|Templater]]
-- [[Obsidian Git Plugin Notes|Obsidian Git]]
+- [[PKM/Obsidian/Templater Plugin Notes|Templater]]
+- [[PKM/Obsidian/Obsidian Git Plugin Notes|Obsidian Git]]
 
 ## Github 
 

@@ -10,4 +10,4 @@ author: Jimmy Briggs
 ***
 
 Source: [Introduction | Templater (silentvoid13.github.io)](https://silentvoid13.github.io/Templater/docs/)
-Links: [[PKM|Personal Knowledge Management]] | [[Obsidian]]
+Links: [[PKM|Personal Knowledge Management]] | [[PKM/Obsidian/Obsidian]]

@@ -20,7 +20,7 @@ git push --set-upstream origin master
 ```
 
 ***
-Links: [[Obsidian]]
+Links: [[PKM/Obsidian/Obsidian]]
 ***
 Source:
 
