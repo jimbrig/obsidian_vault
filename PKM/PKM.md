@@ -9,6 +9,8 @@ author: Jimmy Briggs
 
 ## Obsidian
 
+![[O]]
+
 - Notes:
 	- [[Obsidian]]
 		- [[Advanced Tables Plugin Help]]
@@ -17,8 +19,16 @@ author: Jimmy Briggs
 		- [[Publishing Workflow]]
 		- [[Templater Plugin Notes]]
 
-- Sources:
-	- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
+- Links:
+	- [Obsidian](https://obsidian.md/)
+	- [Obsidian Forum](https://forum.obsidian.md/)
+	- [Obsidian (@obsdmd) / Twitter](https://twitter.com/obsdmd)
+	- [ObsidianMD (reddit.com)](https://www.reddit.com/r/ObsidianMD/)
+	- [Obsidian Markdown Reference | Markdown Guide](https://www.markdownguide.org/tools/obsidian/)
+	- [Obsidian.md · GitHub](https://github.com.cnpmjs.org/obsidianmd)
+
+	- Articles:
+		- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
 
 ## PARA
 > Projects, Areas, Resources, Archives

@@ -1,5 +1,5 @@
-- 2021-05-18 at 12h37 · [[Goals of a Note Taking System]]
-- 2021-05-18 at 12h35 · [[PKM]]
+- 2021-05-18 at 12h42 · [[PKM]]
+- 2021-05-18 at 12h38 · [[Goals of a Note Taking System]]
 - 2021-05-18 at 12h32 · [[index]]
 - 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
 - 2021-05-18 at 12h32 · [[Obsidian]]
