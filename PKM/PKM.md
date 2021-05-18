@@ -7,17 +7,34 @@ author: Jimmy Briggs
 
 # PKM- Contents
 
-- [[Obsidian]]
-	- [[Advanced Tables Plugin Help]]
-	- [[Mermaid Diagrams]]
-	- [[Obsidian Git Plugin No]]
+## Obsidian
+
+- Notes:
+	- [[Obsidian]]
+		- [[Advanced Tables Plugin Help]]
+		- [[Mermaid Diagrams]]
+		- [[Obsidian Git Plugin Notes]]
+		- [[Publishing Workflow]]
+		- [[Templater Plugin Notes]]
+
+- Sources:
+	- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
+
+## PARA
+> Projects, Areas, Resources, Archives
+
+- Notes:
 
 
-## Saved Reference
+- Sources:
 
-### Obsidian Specific
 
-- [Note taking with Obsidian (rolisz.ro)](https://rolisz.ro/2020/07/28/obsidian/)
+## Building a Second Brain (BASB)
+
+- Notes:
+
+
+- Sources:
 
 ***
 Backlinks:
