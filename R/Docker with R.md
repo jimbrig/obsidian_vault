@@ -38,12 +38,55 @@ Some useful packages and functions to use for determining exactly what R package
 - `dep::get_deps()`, `dep::get_proj_deps()`
 - `rsconnect::appDependencies()`
 
+Packages:
+
+- `containerit`
+- `dockerfiler`
+- `stevedore`
+- `dockermachine`
+- `littlr`
+- `dockerstats`
+- `repro`
+- `automagic`
+- `requirements`
+- `versions`
+-   `httpcache`
+-   `sysreqs`
+-   `golem`
+-   `attachment`
+-   `pak`
+-   `MarkEdmonsons suite for GCP`
+-   `sys`
+-   `rsconnect`
+-   `tic.package`
+-   `rpushbullet`
+-   `rockerbuilder`
+-   `r-minimal`
+-   `dockertest`
+-   `rize`
+-   `dockeRs`
+-   `docker`
+-   `dada2docker`
+-   `repo2docker`
+-   `podman-compose`
+-   `vcr` (record HTTP calls and replay them)
+
 For installation in the `Dockerfile` use the following tips:
 
 - Consider using the `versions` package over `remotes` for better installations.
 - Support package installation through a single `dependencies.R` script (`attachment::create_dependencies_file()`).
 - Similarly, for system requirements, support `apt.txt` files.
-- Utilize `renv`'s cach'
+- Utilize `renv`'s caching support functionality within containers (see https://www.robertmylesmcdonnell.com/content/posts/docker/)
+- Add metadata in `Dockerfile` such as:
+	- Maintainer - `whoami::whoami()$fullname()`
+	-   Build Date - `Sys.Date()`
+	-   Labels
+	-   App Version with automatic incrementing `semver`
+	-   Remote Repository Specs
+- Utilize a `.dockerignore` file
+- Option to build image/deploy app as an RStudio background job via `rstudioapi::runJob()`
+- Add logging
+
 
 ## System Requirements
 
