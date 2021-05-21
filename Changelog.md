@@ -1,4 +1,4 @@
-- 2021-05-21 at 18h29 · [[R Optimizing Package Installations]]
+- 2021-05-21 at 18h34 · [[R Optimizing Package Installations]]
 - 2021-05-21 at 18h28 · [[Docker with R]]
 - 2021-05-21 at 18h26 · [[Docker Development Best Practices]]
 - 2021-05-21 at 18h15 · [[R MOC]]

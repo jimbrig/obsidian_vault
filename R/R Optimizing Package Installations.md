@@ -7,9 +7,160 @@ author: Jimmy Briggs
 
 # R Optimizing Package Installations
 
-## Directory Contents:
+## Example Files:
 
-- [Example copy of my R Profile](./.Rprofile)
+### `.Rprofile`
+
+```r
+local({
+  # load pipe from magrittr
+  `%>%` <- magrittr::`%>%`
+})
+
+# Set Global CRAN Mirror
+options(repos = c(CRAN = 'https://cloud.r-project.org'))
+
+# install packages in parallel via 'Ncpus' argument
+options(Ncpus = 6L)
+
+# Remove Scientific Notation
+options(scipen = 999)
+
+# Set max print
+options(max.print = 100)
+
+# Update R Prompt
+if (interactive()) invisible(installr::check.for.updates.R(GUI = FALSE))
+
+# error tracing
+if ('rlang' %in% loadedNamespaces()) options(error = rlang::entrace)
+
+# turn on completion of installed package names
+utils::rc.settings(ipck = TRUE)
+
+# usethis / devtools
+options(
+  usethis.full_name = "Jimmy Briggs",
+  usethis.protocol = "ssh",
+  usethis.description = list(
+    `Authors@R` = 'person(
+      "Jimmy", "Briggs",
+      email = "jimbrig2011@outlook.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-7489-8787"
+    ))',
+    License = "MIT + file LICENSE",
+    Language =  "en-US"
+  )
+)
+
+# clear env
+rm(list = ls())
+
+# cleanup
+# detach all attached
+suppressWarnings(
+  invisible(
+    lapply(
+      paste("package:", names(sessionInfo()$otherPkgs), sep = ""),
+      detach,
+      character.only = TRUE,
+      unload = TRUE
+      )
+    )
+)
+
+# garbage collection
+gc()
+
+```
+
+### `Makeconf` and `Makevars`
+
+- `Makeconf`
+
+```make
+CC="ccache gcc"
+CXX="ccache g++"
+```
+
+- `Makevars`
+
+```make
+VER=
+CCACHE=ccache
+CC=$(CCACHE) gcc$(VER)
+CXX=$(CCACHE) g++$(VER)
+CXX11=$(CCACHE) g++$(VER)
+CXX14=$(CCACHE) g++$(VER)
+FC=$(CCACHE) gfortran$(VER)
+F77=$(CCACHE) gfortran$(VER)
+```
+
+## Benchmarking R Script
+
+```r
+# set default CRAN mirror for both installations
+options(repos = c("CRAN" = "https://cran.rstudio.com/"))
+
+# ensure no Ncpus already set
+options(Ncpus = NULL)
+is.null(getOption("Ncpus"))
+
+# declare separate .libPaths
+libpath_root <- dirname(.libPaths()[1])
+
+# create new test libPaths for each test
+lib1 <- fs::path(libpath_root, "test1")
+lib2 <- file.path(libpath_root, "test2")
+lib4 <- file.path(libpath_root, "test4")
+lib6 <- file.path(libpath_root, "test6")
+
+if (fs::dir_exists(lib1)) fs::dir_delete(lib1)
+if (fs::dir_exists(lib2)) fs::dir_delete(lib2)
+if (fs::dir_exists(lib4)) fs::dir_delete(lib4)
+if (fs::dir_exists(lib6)) fs::dir_delete(lib6)
+
+fs::dir_create(lib1, recurse = TRUE)
+fs::dir_create(lib2, recurse = TRUE)
+fs::dir_create(lib4, recurse = TRUE)
+fs::dir_create(lib6, recurse = TRUE)
+
+options(Ncpus = 1)
+.libPaths(lib1)
+start <- Sys.time(); install.packages("tidyverse", silent = TRUE); end <- Sys.time()
+
+elapsed1 <- (end - start)
+elapsed1
+
+
+options(Ncpus = 2)
+.libPaths(lib2)
+start <- Sys.time()
+install2 <- system.time(install.packages("tidyverse"))
+end <- Sys.time()
+elapsed2 <- (end - start)
+elapsed2
+
+options(Ncpus = 4)
+.libPaths(lib4)
+start <- Sys.time()
+install4 <- system.time(install.packages("tidyverse"))
+end <- Sys.time()
+elapsed4 <- (end - start)
+elapsed4
+
+
+options(Ncpus = 6)
+.libPaths(lib6)
+start <- Sys.time()
+install6 <- system.time(install.packages("tidyverse"))
+end <- Sys.time()
+elapsed6 <- (end - start)
+elapsed6
+```
+
+- [Example copy of my R Profile](https://github.com/Tychobra/jimbrig/blob/master/docs/optimizing_package_installation/.Rprofile)
 - [Example copy of my R Makeconf](./Makeconf)
 - [Example copy of my R Makevars](./Makevars)
 - [Script used to benchmark installation times](./installation_benchmarking_script.R)
@@ -372,6 +523,16 @@ loaded via a namespace (and not attached):
 
 
 ***
-Links: 
-Source:
+Links: [[R Development]]
+
+Reference:
+-   [https://www.jumpingrivers.com/blog/speeding-up-package-installation/](https://www.jumpingrivers.com/blog/speeding-up-package-installation/)
+-   [http://dirk.eddelbuettel.com/blog/2017/08/20/#010\_stripping\_shared\_libraries](http://dirk.eddelbuettel.com/blog/2017/08/20/#010_stripping_shared_libraries)
+-   [https://en.wikipedia.org/wiki/Hyper-threading](https://en.wikipedia.org/wiki/Hyper-threading)
+-   [https://ccache.dev/](https://ccache.dev/)
+-   [https://pat-s.me/post/using-ccache-to-speed-up-r-package-checks-on-travis-ci/](https://pat-s.me/post/using-ccache-to-speed-up-r-package-checks-on-travis-ci/)
+-   [https://stackoverflow.com/questions/36725027/r-package-installation-from-source-using-multiple-cores](https://stackoverflow.com/questions/36725027/r-package-installation-from-source-using-multiple-cores)
+-   [https://github.com/ArduPilot/ardupilot/blob/master/Tools/environment\_install/install-prereqs-windows.ps1](https://github.com/ArduPilot/ardupilot/blob/master/Tools/environment_install/install-prereqs-windows.ps1) 
+
+Source: <https://github.com/Tychobra/jimbrig/tree/master/docs/optimizing_package_installation>
 
