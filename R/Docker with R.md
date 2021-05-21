@@ -23,6 +23,8 @@ specified in the package's `DESCRIPTION` file. Alternatively, in a standalone an
 
 Some useful packages and functions to use for determining exactly what R packages your project depends on include:
 
+- `sessionInfo()`, `sessioninfo::sessioninfo()`
+- `requirements::req_code()`, `requirements::req_file()`, `requirements::req_namespace()`
 - `renv::dependencies()`
 - `automagic::get_dependent_packages()`, `automagic::make_deps_file()`
 - `dep::get_deps()`, `dep::get_proj_deps()`
