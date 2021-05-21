@@ -1,3 +1,5 @@
+- 2021-05-21 at 18h19 · [[Docker with R]]
+- 2021-05-21 at 18h15 · [[R MOC]]
 - 2021-05-21 at 18h14 · [[2021-05-21]]
 - 2021-05-18 at 12h47 · [[Obsidian]]
 - 2021-05-18 at 12h45 · [[PKM]]
@@ -5,6 +7,4 @@
 - 2021-05-18 at 12h32 · [[index]]
 - 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
 - 2021-05-18 at 12h32 · [[Obsidian]]
-- 2021-05-18 at 12h32 · [[Obsidian Git Plugin Notes]]
-- 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
 - 2021-05-18 at 12h32 · [[Obsidian Git Plugin Notes]]
