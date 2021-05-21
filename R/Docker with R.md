@@ -18,9 +18,19 @@ Before the creation of a `Dockerfile`, first, one must collect and determine eve
 
 ### Determining R Package Dependencies
 
-Depending on the type of project you are working on, the method in which R Package Dependencies can be extracted can vary. For example, if you are building an R Package all external depend
+Depending on the type of project you are working on, the method in which R Package Dependencies can be extracted can vary. For example, if you are building an R Package all external dependencies will already be 
+specified in the package's `DESCRIPTION` file. Alternatively, in a standalone analysis project composed of R scripts and/or R Markdown documents package dependencies will be loaded via `library`, `require`, or called directly via `::`/`:::`, etc. 
+
+Some useful packages and functions to use for determining exactly what R packages your project depends on include:
+
+- `renv::dependencies()`
+- `automagic::get_dependent_packages()`
+- `dep::get_deps()`, `dep::get_proj_deps()`
+- `rsconnect::appDependencies()`
 
 ## System Requirements
+
+- `dep::get_sysreqs()`
 
 ***
 Links: [[R MOC]]
