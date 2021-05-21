@@ -24,7 +24,7 @@ specified in the package's `DESCRIPTION` file. Alternatively, in a standalone an
 Some useful packages and functions to use for determining exactly what R packages your project depends on include:
 
 - `renv::dependencies()`
-- `automagic::get_dependent_packages()`
+- `automagic::get_dependent_packages()`, `automagic::make_deps_file()`
 - `dep::get_deps()`, `dep::get_proj_deps()`
 - `rsconnect::appDependencies()`
 
@@ -33,6 +33,6 @@ Some useful packages and functions to use for determining exactly what R package
 - `dep::get_sysreqs()`
 
 ***
-Links: [[R MOC]]
+Links: [[R Development]] | [[Docker]] | [[Shiny Apps as Packages in R]]
 Source:
 

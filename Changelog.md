@@ -1,4 +1,6 @@
-- 2021-05-21 at 18h24 · [[Docker with R]]
+- 2021-05-21 at 18h29 · [[R Optimizing Package Installations]]
+- 2021-05-21 at 18h28 · [[Docker with R]]
+- 2021-05-21 at 18h26 · [[Docker Development Best Practices]]
 - 2021-05-21 at 18h15 · [[R MOC]]
 - 2021-05-21 at 18h14 · [[2021-05-21]]
 - 2021-05-18 at 12h47 · [[Obsidian]]
@@ -6,5 +8,3 @@
 - 2021-05-18 at 12h38 · [[Goals of a Note Taking System]]
 - 2021-05-18 at 12h32 · [[index]]
 - 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
-- 2021-05-18 at 12h32 · [[Obsidian]]
-- 2021-05-18 at 12h32 · [[Obsidian Git Plugin Notes]]
