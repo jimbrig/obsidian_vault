@@ -1,3 +1,4 @@
+- 2021-05-21 at 18h14 · [[2021-05-21]]
 - 2021-05-18 at 12h47 · [[Obsidian]]
 - 2021-05-18 at 12h45 · [[PKM]]
 - 2021-05-18 at 12h38 · [[Goals of a Note Taking System]]
@@ -7,4 +8,3 @@
 - 2021-05-18 at 12h32 · [[Obsidian Git Plugin Notes]]
 - 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
 - 2021-05-18 at 12h32 · [[Obsidian Git Plugin Notes]]
-- 2021-05-18 at 12h29 · [[moc]]
