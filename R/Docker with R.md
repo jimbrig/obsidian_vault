@@ -7,6 +7,49 @@ author: Jimmy Briggs
 
 # Docker with R
 
+## Parent Docker Images
+
+A parent image is an image that you define in the `FROM` directive of the `Dockerfile`. A [base image](https://docs.docker.com/develop/develop-images/baseimages/) has `FROM scratch` as the first line. The R base images start with parent images. For example, the R Ubuntu image starts with `FROM ubuntu:focal`.
+
+Here are the four commonly used parent images for R:
+
+```bash
+docker pull rhub/r-minimal:4.0.5
+docker pull rocker/r-base:4.0.4
+docker pull rocker/r-ubuntu:20.04
+docker pull rstudio/r-base:4.0.4-focal
+```
+
+The image sizes vary quite a bit with the Alpine Linux base `rhub/r-minimal` being smallest and the Ubuntu-based `rstudio/r-base` 25x the size of the smallest image:
+
+```bash
+$ docker images --format 'table {{.Repository}}\t{{.Tag}}\t{{.Size}}'
+
+REPOSITORY          TAG                 SIZE
+rhub/r-minimal      4.0.5               35.3MB
+rocker/r-base       4.0.4               761MB
+rocker/r-ubuntu     20.04               673MB
+rstudio/r-base      4.0.4-focal         894MB
+```
+
+The Debian Linux based `rocker/r-base` Docker image from the [Rocker](https://github.com/rocker-org/rocker/tree/master/r-base) project is considered bleeding edge when it comes to system dependencies, i.e. latest development versions are usually available sooner than on other Linux distributions.
+
+The two Ubuntu Linux based images, `rocker/r-ubuntu` and `rstudio/r-base` from the [Rocker](https://github.com/rocker-org/rocker/tree/master/r-ubuntu) project and from [RStudio](https://github.com/rstudio/r-docker) are for long-term support Ubuntu versions and use the [RSPM](https://packagemanager.rstudio.com/client/) CRAN binaries.
+
+The Alpine Linux based `rhub/r-minimal` Docker image from the [r-hub](https://github.com/r-hub/r-minimal) project is preferred for its small image sizes.
+
+## Using BuildKit
+
+- [Docker BuildKit](https://docs.docker.com/develop/develop-images/build_enhancements/)
+
+Docker versions 18.09 or higher come with a new opt-in builder backend called [BuildKit](https://github.com/moby/buildkit). BuildKit prints out a nice summary of each layer including timing for the layers and the overall build. This is the general build command that I used to compare the four parent images:
+
+```bash
+DOCKER_BUILDKIT=1 docker build --no-cache -f $FILE -t $IMAGE .
+```
+
+BuildKit backend is enabled by turning on the `DOCKER_BUILDKIT=1` environment variable. I use the `--no-cache` option to avoid using cached layers, thus having a fair assessment of build times (you usually only build 1 and not 4). The `-f $FILE` flag allows building from different files kept in the same folder.
+
 ## Gathering Elements of Computational Environment
 
 Before the creation of a `Dockerfile`, first, one must collect and determine everything involved in re-producing the development environment. This includes, but is not limited to:
