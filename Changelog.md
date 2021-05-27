@@ -1,5 +1,5 @@
+- 2021-05-27 at 15h28 · [[2021-05-27]]
 - 2021-05-27 at 12h37 · [[MPesa API]]
-- 2021-05-27 at 00h17 · [[2021-05-27]]
 - 2021-05-26 at 22h49 · [[WSL]]
 - 2021-05-26 at 22h48 · [[Building React-Native App in WSL2]]
 - 2021-05-26 at 22h46 · [[How to Cleanup Windows from Command Line]]
