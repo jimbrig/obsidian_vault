@@ -1,3 +1,4 @@
+- 2021-05-26 at 21h26 · [[2021-05-26]]
 - 2021-05-21 at 18h48 · [[Docker with R]]
 - 2021-05-21 at 18h38 · [[R Miscellaneous Notes]]
 - 2021-05-21 at 18h36 · [[R Optimizing Package Installations]]
@@ -7,4 +8,3 @@
 - 2021-05-18 at 12h45 · [[PKM]]
 - 2021-05-18 at 12h38 · [[Goals of a Note Taking System]]
 - 2021-05-18 at 12h32 · [[index]]
-- 2021-05-18 at 12h32 · [[Templater Plugin Notes]]
