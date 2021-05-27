@@ -5,12 +5,14 @@ tags: ["#moc"]
 author: Jimmy Briggs
 ---
 
-# WSL- Contents
+# WSL
 
 ## Contents:
 
 - [[WSL Commands and Installs]]
 - [[WSL Ubuntu on Windows Community Preview]]
+- [[Building React-Native App in WSL2]]
+- [[WSLg]]
 
 
 ***
