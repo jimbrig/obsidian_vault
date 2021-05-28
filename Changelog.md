@@ -1,3 +1,6 @@
+- 2021-05-28 at 17h02 · [[R Package Development Best Practices]]
+- 2021-05-28 at 16h58 · [[R]]
+- 2021-05-28 at 16h57 · [[2021-05-28]]
 - 2021-05-27 at 23h12 · [[2021-05-27]]
 - 2021-05-27 at 16h03 · [[Docker with R]]
 - 2021-05-27 at 12h37 · [[MPesa API]]
@@ -5,6 +8,3 @@
 - 2021-05-26 at 22h48 · [[Building React-Native App in WSL2]]
 - 2021-05-26 at 22h46 · [[How to Cleanup Windows from Command Line]]
 - 2021-05-26 at 21h26 · [[2021-05-26]]
-- 2021-05-21 at 18h38 · [[R Miscellaneous Notes]]
-- 2021-05-21 at 18h36 · [[R Optimizing Package Installations]]
-- 2021-05-21 at 18h26 · [[Docker Development Best Practices]]
