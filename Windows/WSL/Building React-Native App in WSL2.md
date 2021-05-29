@@ -152,6 +152,6 @@ Add a launch configuration in file launch.json with specified type and target
 
 Start debugging.
 ***
-Links: [[WSL]] 
+Links: [[Windows/WSL/WSL]] 
 Source: [Building a react native app in WSL2 (github.com)](https://gist.github.com/bergmannjg/461958db03c6ae41a66d264ae6504ade)
 

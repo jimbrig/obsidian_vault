@@ -9,10 +9,10 @@ author: Jimmy Briggs
 
 ## Contents:
 
-- [[WSL Commands and Installs]]
-- [[WSL Ubuntu on Windows Community Preview]]
+- [[Windows/WSL/WSL Commands and Installs]]
+- [[Windows/WSL/WSL Ubuntu on Windows Community Preview]]
 - [[Building React-Native App in WSL2]]
-- [[WSLg]]
+- [[Windows/WSL/WSLg]]
 
 
 ***

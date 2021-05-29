@@ -7,7 +7,7 @@ author: Jimmy Briggs
 
 # WSLg
 
-In April 2021, Windows announced the preview for the new version of [[WSL]] named **WSLg** with support got graphical user interface applications (GUIs).
+In April 2021, Windows announced the preview for the new version of [[Windows/WSL/WSL]] named **WSLg** with support got graphical user interface applications (GUIs).
 
 Enhance the experience by downloading graphics drivers to support hardware acceleration, etc:
 
@@ -22,6 +22,6 @@ Enhance the experience by downloading graphics drivers to support hardware accel
 [^1]: Note: NVIDIA drivers for WSL with CUDA and DirectML support are available as preview for [Microsoft Windows Insider Program](https://insider.windows.com/en-us/getting-started/) members who have registered for the [NVIDIA Developer Program](https://developer.nvidia.com/developer-program).
 
 ***
-Links: [[WSL]] | [[WSLg]] | [[WSL Ubuntu on Windows Community Preview]] 
+Links: [[Windows/WSL/WSL]] | [[Windows/WSL/WSLg]] | [[Windows/WSL/WSL Ubuntu on Windows Community Preview]] 
 Reference: [WSLg Architecture](https://devblogs.microsoft.com/commandline/wslg-architecture/) | [Windows Insider](https://insider.windows.com/en-us/getting-started) | [NVIDIA Developer Docs](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)
 Source: [WSLg Architecture](https://devblogs.microsoft.com/commandline/wslg-architecture/)
