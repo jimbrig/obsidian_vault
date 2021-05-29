@@ -24,11 +24,11 @@ author: Jimmy Briggs
 
 ## Other
 
-- [[How to Cleanup Windows from Command Line]]
-- [[Using diskusage Command in Windows]]
-- [[Windows Command Line Commands Overview]]
-- [[WinGet CLI Setup and Settings]]
-- [[SFC and DISM Commands]]
+- [[Windows/Command Line and Powershell/How to Cleanup Windows from Command Line]]
+- [[Windows/Command Line and Powershell/Using diskusage Command in Windows]]
+- [[Windows/Command Line and Powershell/Windows Command Line Commands Overview]]
+- [[Windows/WinGet/WinGet CLI Setup and Settings]]
+- [[Windows/Command Line and Powershell/SFC and DISM Commands]]
 
 ***
 Backlinks:
