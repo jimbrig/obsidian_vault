@@ -1,4 +1,5 @@
-- 2021-05-28 at 20h57 · [[Windows Terminal Updates - May 28, 2021]]
+- 2021-05-28 at 21h02 · [[Windows]]
+- 2021-05-28 at 21h00 · [[Windows Terminal Updates - May 28, 2021]]
 - 2021-05-28 at 20h54 · [[Windows Terminal]]
 - 2021-05-28 at 20h53 · [[index]]
 - 2021-05-28 at 20h53 · [[WSLg]]
@@ -6,5 +7,4 @@
 - 2021-05-28 at 20h53 · [[WSLg]]
 - 2021-05-28 at 20h53 · [[WSL]]
 - 2021-05-28 at 20h53 · [[Building React-Native App in WSL2]]
-- 2021-05-28 at 20h52 · [[SFC and DISM Commands]]
 - 2021-05-28 at 20h52 · [[SFC and DISM Commands]]
