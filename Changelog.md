@@ -1,5 +1,5 @@
-- 2021-05-28 at 21h02 · [[Windows]]
-- 2021-05-28 at 21h00 · [[Windows Terminal Updates - May 28, 2021]]
+- 2021-05-28 at 21h05 · [[Windows Terminal Updates - May 28, 2021]]
+- 2021-05-28 at 21h03 · [[Windows]]
 - 2021-05-28 at 20h54 · [[Windows Terminal]]
 - 2021-05-28 at 20h53 · [[index]]
 - 2021-05-28 at 20h53 · [[WSLg]]
