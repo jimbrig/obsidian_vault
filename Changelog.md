@@ -1,4 +1,5 @@
-- 2021-06-04 at 09h08 · [[Web Browsers]]
+- 2021-06-04 at 09h15 · [[Web Browsers]]
+- 2021-06-04 at 09h15 · [[Changelog]]
 - 2021-06-04 at 09h00 · [[2021-06-04]]
 - 2021-06-03 at 19h59 · [[Jobs for R Devs]]
 - 2021-06-03 at 19h41 · [[2021-06-03]]
@@ -7,4 +8,3 @@
 - 2021-05-28 at 21h12 · [[Web Browsers]]
 - 2021-05-28 at 21h12 · [[index]]
 - 2021-05-28 at 21h12 · [[Firefox Developer Edition]]
-- 2021-05-28 at 21h12 · [[Using Pool]]
