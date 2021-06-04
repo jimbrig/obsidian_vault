@@ -7,6 +7,36 @@ author: Jimmy Briggs
 
 # Jobs for R Devs
 
+## Data Package Engineer (Freelance)
+
+[Help submit an R Data Package to CRAN (this is a paid freelance job) (r-users.com)](https://www.r-users.com/jobs/help-submit-an-r-data-package-to-cran-this-is-a-paid-freelance-job/)
+
+## Job Description
+
+Update: This position has been filled.
+
+Commercial teaching website requires R library to be published on CRAN.
+
+Your experience in publishing R libraries, debugging version errors, and meeting all of the build checks are needed.
+
+THIS LIBRARY CONTAINS ONLY DATA.
+
+That’s it.
+
+There are no functions.  Only minimal documentation is needed to describe each data set.
+
+[https://github.com/sdcastillo/ExamPAData](https://github.com/sdcastillo/ExamPAData)
+
+For a description of the data sets, see chapter 5.1 of this book: [https://github.com/sdcastillo/ExamPAData](https://github.com/sdcastillo/ExamPAData)
+
+Here’s a step-by-step guide.  You can begin at Step 6 “Submit to Cran”
+
+[https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/r-package/)
+
+## How to Apply
+
+To apply, email a resume to Sam@ExamPA.net and Set up a 30-minute zoom interview: https://calendly.com/samcastillo/zoom
+
 ## Senior R Software Engineer
 [Senior R Software Engineer, Hourly | Jobs for R-users](https://www.r-users.com/jobs/senior-r-software-engineer-hourly/)
 
@@ -130,9 +160,8 @@ Note: we are not looking for analysts / data scientists that _use_ R for script
 
 This is a part-time / hourly gig, though could change to full time if things go well (and you’re interested). We’ve got the $ to pay competitive rates.
 
-
-
-
+### How to Apply
+Email us a CV / Resume and / or a link to github profile if we can see relevant contributions there. Contributions to well-known packages are indicative of a good fit here.
 ***
 
 Sources:
