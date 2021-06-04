@@ -1,3 +1,5 @@
+- 2021-06-04 at 10h36 · [[SFC and DISM Commands]]
+- 2021-06-04 at 10h34 · [[Day Planner-20210604]]
 - 2021-06-04 at 10h30 · [[Ledger]]
 - 2021-06-04 at 10h01 · [[Web Browsers]]
 - 2021-06-04 at 09h28 · [[Untitled Kanban]]
@@ -6,5 +8,3 @@
 - 2021-06-04 at 09h00 · [[2021-06-04]]
 - 2021-06-03 at 19h59 · [[Jobs for R Devs]]
 - 2021-06-03 at 19h41 · [[2021-06-03]]
-- 2021-05-28 at 22h03 · [[Windows]]
-- 2021-05-28 at 22h02 · [[Using PowerShell for Windows Security]]
