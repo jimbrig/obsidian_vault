@@ -1,3 +1,4 @@
+- 2021-06-04 at 10h30 · [[Ledger]]
 - 2021-06-04 at 10h01 · [[Web Browsers]]
 - 2021-06-04 at 09h28 · [[Untitled Kanban]]
 - 2021-06-04 at 09h26 · [[Obsidian Kanban Board Plugin]]
@@ -7,4 +8,3 @@
 - 2021-06-03 at 19h41 · [[2021-06-03]]
 - 2021-05-28 at 22h03 · [[Windows]]
 - 2021-05-28 at 22h02 · [[Using PowerShell for Windows Security]]
-- 2021-05-28 at 21h12 · [[Web Browsers]]
