@@ -52,7 +52,16 @@ gcloud init
 
 ## Install Git
 
+```bash
 
+
+```
+
+#### Homebrew
+
+```bash
+
+```
 
 ## New WSLg GUI Applications
 
