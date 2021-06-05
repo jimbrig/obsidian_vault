@@ -26,6 +26,29 @@ npm stars | Out-GridView
 npm list | Out-GridView
 ```
 
+Example Output:
+
+![[Screenshot 2021-06-05 195318.png]]
+
+## `netsh` Networking Commands
+
+### Wireless Adapter Interface
+
+`netsh wlan show interfaces`: detailed information of your wireless adapter
+
+![[netshwlaninterfaces.png]]
+
+### View Wireless Driver Information
+
+In some cases, you may also need to get driver information about your computer’s wireless adapter. You can get it with the following command:
+
+`netsh wlan show drivers`
+
+You should see the following screen:
+
+![[netshdrivers.png]]
+
+
 ***
 Links: 
 Source:
