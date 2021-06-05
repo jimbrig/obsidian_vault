@@ -16,11 +16,14 @@ Utilizing the `Out-GridView` is a helpful way to display lists or tables of info
 Get-ChildItem -Path $PWD | Sort-Object | Out-GridView
 
 # sort the current directory by file length and view with GridView
-Get-ChildItem -Path C:\Test -File | Sort-Object       -Property Length
+Get-ChildItem -Path $PWD -File | Sort-Object -Property Length | Out-GridView
 
-
+# list installed chocolatey,winget,pip,npm,etc. packages in GridView
 choco list | Out-GridView
-winget list | Sort-Object
+winget list | Out-GridView
+pip list | Out-GridView
+npm stars | Out-GridView
+npm list | Out-GridView
 ```
 
 ***
