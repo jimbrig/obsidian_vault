@@ -1,6 +1,6 @@
+- 2021-06-05 at 00h00 · [[Day Planner-20210605]]
 - 2021-06-04 at 23h45 · [[SFC and DISM Commands]]
 - 2021-06-04 at 23h45 · [[Changelog]]
-- 2021-06-04 at 23h45 · [[index]]
 - 2021-06-04 at 23h45 · [[index]]
 - 2021-06-04 at 23h45 · [[index]]
 - 2021-06-04 at 23h45 · [[index]]
