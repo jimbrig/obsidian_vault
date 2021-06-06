@@ -7,6 +7,28 @@ author: Jimmy Briggs
 
 # PowerShell Tips and Tricks
 
+## Get-ChildItem or `gci`
+
+```powershell
+gci | where Length -lt 2mb
+```
+
+![[gci.png]]
+
+## Command History
+
+```powershell
+cat (Get-PSReadlineOption).HistorySavePath | select -Last 200
+```
+
+## Hash
+
+```powershell
+$hash=@{"hell"=0; "worl"="d"}
+$hash["hell"]
+$out.GetEnumerator() | sort -Property Name | Format-Table Name, @{Expression="Value"; FormatString="n0"}
+```
+
 ## `GridView`
 
 Utilizing the `Out-GridView` is a helpful way to display lists or tables of information in a user-friendly output format:
@@ -29,6 +51,22 @@ npm list | Out-GridView
 Example Output:
 
 ![[Screenshot 2021-06-05 195318.png]]
+
+## Check and Reconnect WiFi
+
+```powershell
+while ($true) {
+  if (Test-Connection \-Count 4 \-Quiet \-Delay 3 www.github.com) {
+  Write-Output "Internet Connection is good to go."
+} else {
+  Write-Output "Not connected to the internet."
+  netsh wlan disconnect; Start-Sleep 2;
+  netsh wlan connect name\=vino\-enhanced\-5G\-2;
+}
+ Get-Date
+ Start-Sleep 3
+}
+```
 
 ## `netsh` Networking Commands
 
