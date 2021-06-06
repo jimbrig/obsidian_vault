@@ -26,22 +26,22 @@ while ($true)Â {
 
 - `netsh interface ipv4 show ipstats`
 
-![[neyshipstats.png]]
+![](https://github.com/jimbrig/obsidian_vault/blob/7c58a9ee0ec3f5184b64d6ed72106382dfc097e4/_assets/neyshipstats.png)
+
 
 - `netsh interface ipv4 show tcpconnections`
 
-![[netshtcp.png]]
+![](netshtcp.png]]
 
 ### `NetStat`
 
-![[netstat.png]]
-
+![](https://github.com/jimbrig/obsidian_vault/blob/7c58a9ee0ec3f5184b64d6ed72106382dfc097e4/_assets/netshtcp.png)
 
 ### Wireless Adapter Interface
 
 `netsh wlan show interfaces`: detailed information of your wireless adapter
 
-![[netshwlaninterfaces.png]]
+![](https://github.com/jimbrig/obsidian_vault/blob/7c58a9ee0ec3f5184b64d6ed72106382dfc097e4/_assets/netshwlaninterfaces.png)
 
 ### View Wireless Driver Information
 
@@ -51,7 +51,7 @@ In some cases, you may also need to get driver information about your computerâ€
 
 You should see the following screen:
 
-![[netshdrivers.png]]
+![](https://github.com/jimbrig/obsidian_vault/blob/7c58a9ee0ec3f5184b64d6ed72106382dfc097e4/_assets/netshdrivers.png)
 
 You will get relevant information about the driver currently installed on your system, including vendor, version, radio type, and wireless display support, and much more.
 
@@ -63,7 +63,7 @@ You can also use the following command to view all supported wireless adapter ca
 
 You should see the detail information in the following screen:
 
-[![](https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)](https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)
+![[[(https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)](https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)
 
 ### View Wireless Network Profiles
 
@@ -75,7 +75,7 @@ You can view all these profiles stored in your computer with the following comma
 
 You should see the following screen:
 
-![[netshprofiles.png]]
+![](https://github.com/jimbrig/obsidian_vault/blob/7c58a9ee0ec3f5184b64d6ed72106382dfc097e4/_assets/netshprofiles.png)
 
 If you want to delete any wireless network profile, run the following command:
 
