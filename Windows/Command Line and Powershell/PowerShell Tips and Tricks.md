@@ -36,6 +36,10 @@ $out.GetEnumerator() | sort -Property Name | Format-Table Name, @{Expression="Va
 
 ## Formatting Strings
 
+Utilizing the `-f` (format) flag can be extremely useful for formatting output text strings.
+
+See [\-f Format operator - PowerShell - SS64.com](https://ss64.com/ps/syntax-f-operator.html) for more details.
+
 ```powershell
 
 # Display a number to 3 decimal places:  
@@ -62,32 +66,29 @@ $out.GetEnumerator() | sort -Property Name | Format-Table Name, @{Expression="Va
 1..100 | % { 'Name{0:**d3**}' -f $_ }
 
 # Convert a number to Hex:  
-"{1,10} {0,10} {2,10:x}" **\-f** "First", "Second", 255  
+"{1,10} {0,10} {2,10:x}" -f "First", "Second", 255
     Second     First        FF  
 
-Convert the character 'A' to its hex equivalent (\[int\]\[char\] gives the [Ascii](https://ss64.com/ascii.html) number and then we convert): PS C:\\> '0x' + "{0:x}" **\-f** \[int\]\[char\]'A'
-0x41 Display filenames and creation time:  
-PS C:\\> Get-ChildItem c:\\docs | ForEach-Object **{**'Filename: **{0}** Created: **{1}**' **\-f** $\_.fullname,$\_.creationtime**}**
-
-Display only the Year from a date time value:  
-PS C:\\> "{0:yyyy}" **\-f** (Get-Date)  
-2018
+# Display only the Year from a date time value:  
+"{0:yyyy}" -f (Get-Date)  
+2021
 
 Display the hours and minutes from a date time value:  
-PS C:\\> "{0:hh}:{0:mm}" **\-f** (Get-Date)  
+"{0:hh}:{0:mm}" -f (Get-Date)  
 17:52
 
-Reverse the order of display:  
-PS C:\\> "{2} {1,-10} {0:n3}" **\-f** \[math\]::pi, "world", "hello"  
+# Reverse the order of display:  
+"{2} {1,-10} {0:n3}" -f [math]::pi, "world", "hello"  
 hello world 3.142
 
-Display a number as a percentage:  
-PS C:\\> "{0:p0}" -f 0.5  
+# Display a number as a percentage:  
+"{0:p0}" -f 0.5  
 50%
 
-Display a whole number padded to 5 digits:  
-PS C:\\> "{0:d5}" -f 123  
+# Display a whole number padded to 5 digits:  
+"{0:d5}" -f 123  
 00123
+```
 
 ## `GridView`
 
@@ -237,5 +238,9 @@ You should see the following screen:
 ## 
 ***
 Links: 
-Source:
+- [[Windows]]
+- [[Command Line and Powershell]]
+Sources:
+- [Powershell snippets · dbunger/notepad Wiki (github.com)](https://github.com/dbunger/notepad/wiki/Powershell-snippets)
+- [PowerShell commands - PowerShell - SS64.com](https://ss64.com/ps/)
 
