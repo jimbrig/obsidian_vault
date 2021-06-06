@@ -32,6 +32,19 @@ Example Output:
 
 ## `netsh` Networking Commands
 
+- `netsh interface ipv4 show ipstats`
+
+![[neyshipstats.png]]
+
+- `netsh interface ipv4 show tcpconnections`
+
+![[netshtcp.png]]
+
+### `NetStat`
+
+![[netstat.png]]
+
+
 ### Wireless Adapter Interface
 
 `netsh wlan show interfaces`: detailed information of your wireless adapter
@@ -102,7 +115,7 @@ You can display it with the following command:
 
 You can see the Wi-fi password/key in the **Key Content** field above.
 
-## Generate Wireless Adapter Report
+### Generate Wireless Adapter Report
 
 If you have any wireless connectivity issue then you can troubleshoot it by generating a detailed report with many important details.
 
@@ -110,11 +123,11 @@ You can create a wireless report with the following command:
 
 `netsh wlan show wlanreport`
 
-This will generate a report and save in the WlanReport folder.
+This will generate a report and save in the `WlanReport` folder.
 
 You can view this report in your web browser. The reports contain a graph with much useful information such as, connectivity status, errors, summery of the network adapter, session success/failures, disconnect reasons, and a lot more.
 
-## Netsh WLAN Help
+### Netsh WLAN Help
 
 Netsh is a simple and very powerful utility that comes with many useful options. If you don’t remember all commands, you can list all available options with the following command:
 
@@ -123,10 +136,7 @@ Netsh is a simple and very powerful utility that comes with many useful options.
 You should see the following screen:
 
 [![](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)
-
-## Conclusion
-
-In this tutorial, you learned how to manage a wireless network with netsh command on Windows 10. We hope this will help you troubleshoot wireless network issues and perform day-to-day tasks.
+## 
 ***
 Links: 
 Source:
