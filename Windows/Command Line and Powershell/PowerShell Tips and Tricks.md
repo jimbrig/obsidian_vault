@@ -48,7 +48,85 @@ You should see the following screen:
 
 ![[netshdrivers.png]]
 
+You will get relevant information about the driver currently installed on your system, including vendor, version, radio type, and wireless display support, and much more.
 
+### Wireless Adapter Capabilities
+
+You can also use the following command to view all supported wireless adapter capabilities:
+
+`netsh wlan show capabilities`
+
+You should see the detail information in the following screen:
+
+[![](https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)](https://cdn.webservertalk.com/wp-content/uploads/p3-23.png)
+
+### View Wireless Network Profiles
+
+When you connect to any wireless network, windows creates a wireless network profile and store it on your computer.
+
+You can view all these profiles stored in your computer with the following command:
+
+`netsh wlan show profiles`
+
+You should see the following screen:
+
+![[netshprofiles.png]]
+
+If you want to delete any wireless network profile, run the following command:
+
+`netsh wlan delete profile name=[profile name]`
+
+You can also remove all profiles with the following command:
+
+`netsh wlan delete profile *`
+
+### Export and Import Wireless Profile
+
+You can export your wireless network profile to the XML file with the following command:
+
+`netsh wlan export profile name="profile name" key=clear folder=c:\`
+
+If you want to import the wireless profile from the XML file, run the following command:
+
+`netsh wlan add profile filename="path_and_filename.xml" interface="interface_name"`
+
+### Find/View Wireless Network Password (no Software needed)
+
+Some times, you may need to find your wireless network password if you forgot it or would like to share your wi-fi password with another user in your network.
+
+If you forgot your wireless network password then you can recover it from the wireless network profile saved in your computer.
+
+You can display it with the following command:
+
+`netsh wlan show profile name="<wifi-name>" key=clear`
+
+You can see the Wi-fi password/key in the **Key Content** field above.
+
+## Generate Wireless Adapter Report
+
+If you have any wireless connectivity issue then you can troubleshoot it by generating a detailed report with many important details.
+
+You can create a wireless report with the following command:
+
+`netsh wlan show wlanreport`
+
+This will generate a report and save in the WlanReport folder.
+
+You can view this report in your web browser. The reports contain a graph with much useful information such as, connectivity status, errors, summery of the network adapter, session success/failures, disconnect reasons, and a lot more.
+
+## Netsh WLAN Help
+
+Netsh is a simple and very powerful utility that comes with many useful options. If you don’t remember all commands, you can list all available options with the following command:
+
+`netsh wlan`
+
+You should see the following screen:
+
+[![](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)
+
+## Conclusion
+
+In this tutorial, you learned how to manage a wireless network with netsh command on Windows 10. We hope this will help you troubleshoot wireless network issues and perform day-to-day tasks.
 ***
 Links: 
 Source:
