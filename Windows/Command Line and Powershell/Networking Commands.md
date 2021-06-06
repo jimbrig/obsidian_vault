@@ -128,7 +128,8 @@ Netsh is a simple and very powerful utility that comes with many useful options.
 You should see the following screen:
 
 [![](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)](https://cdn.webservertalk.com/wp-content/uploads/p8-8.png)
-## 
+
+
 ***
 Links: 
 - [[Windows]]
