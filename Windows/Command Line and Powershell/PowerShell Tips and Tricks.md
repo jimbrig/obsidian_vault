@@ -8,10 +8,15 @@ author: Jimmy Briggs
 # PowerShell Tips and Tricks
 
 ## Get-ChildItem or `gci`
+'The result is {0:n0}' -f $l
 
 ```powershell
 gci | where Length -lt 2mb
 ```
+
+![[gciex.png]]
+
+Help Page:
 
 ![[gci.png]]
 
@@ -28,6 +33,61 @@ $hash=@{"hell"=0; "worl"="d"}
 $hash["hell"]
 $out.GetEnumerator() | sort -Property Name | Format-Table Name, @{Expression="Value"; FormatString="n0"}
 ```
+
+## Formatting Strings
+
+```powershell
+
+# Display a number to 3 decimal places:  
+"{0:n3}" -f 123.45678  
+123.457
+
+# Right align the first number only:  
+"{0,10}" -f 4,5,6
+     4
+
+# Left and right align text:
+"|{0,-10}| |{1,10}|" -f "hello", "world"
+|hello     ||     world|
+
+# Display an integer with 3 digits:  
+"{0:n3}" -f [int32]12  
+12.000
+
+# Separate a number with dashes (# digit place holder):  
+"{0:###-##-##}" -f 1234567  
+123-45-67
+
+# Create a list of 100 names with a padded suffix no. (Name001 → Name100):  
+1..100 | % { 'Name{0:**d3**}' -f $_ }
+
+# Convert a number to Hex:  
+"{1,10} {0,10} {2,10:x}" **\-f** "First", "Second", 255  
+    Second     First        FF  
+
+Convert the character 'A' to its hex equivalent (\[int\]\[char\] gives the [Ascii](https://ss64.com/ascii.html) number and then we convert): PS C:\\> '0x' + "{0:x}" **\-f** \[int\]\[char\]'A'
+0x41 Display filenames and creation time:  
+PS C:\\> Get-ChildItem c:\\docs | ForEach-Object **{**'Filename: **{0}** Created: **{1}**' **\-f** $\_.fullname,$\_.creationtime**}**
+
+Display only the Year from a date time value:  
+PS C:\\> "{0:yyyy}" **\-f** (Get-Date)  
+2018
+
+Display the hours and minutes from a date time value:  
+PS C:\\> "{0:hh}:{0:mm}" **\-f** (Get-Date)  
+17:52
+
+Reverse the order of display:  
+PS C:\\> "{2} {1,-10} {0:n3}" **\-f** \[math\]::pi, "world", "hello"  
+hello world 3.142
+
+Display a number as a percentage:  
+PS C:\\> "{0:p0}" -f 0.5  
+50%
+
+Display a whole number padded to 5 digits:  
+PS C:\\> "{0:d5}" -f 123  
+00123
 
 ## `GridView`
 
