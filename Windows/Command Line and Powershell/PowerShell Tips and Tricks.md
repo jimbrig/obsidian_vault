@@ -240,6 +240,8 @@ You should see the following screen:
 Links: 
 - [[Windows]]
 - [[Command Line and Powershell]]
+- [[Using PowerShell for Windows Security]]
+ 
 Sources:
 - [Powershell snippets · dbunger/notepad Wiki (github.com)](https://github.com/dbunger/notepad/wiki/Powershell-snippets)
 - [PowerShell commands - PowerShell - SS64.com](https://ss64.com/ps/)
