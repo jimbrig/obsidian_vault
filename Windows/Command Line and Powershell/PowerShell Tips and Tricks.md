@@ -7,6 +7,15 @@ author: Jimmy Briggs
 
 # PowerShell Tips and Tricks
 
+## List running processes
+
+```powershell
+$AllProcesses=Get-Process
+foreach ($OneProcess in $AllProcesses) {
+	echo $OneProcess.path
+}
+```
+
 ## Get-ChildItem or `gci`
 'The result is {0:n0}' -f $l
 
