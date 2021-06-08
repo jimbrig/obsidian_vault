@@ -16,6 +16,8 @@ foreach ($OneProcess in $AllProcesses) {
 }
 ```
 
+Source: [how to write powershell to identify running processes (Page 1) / Windows PowerShell / SS64 Forum](https://ss64.org/viewtopic.php?id=1500)
+
 ## Get-ChildItem or `gci`
 'The result is {0:n0}' -f $l
 
