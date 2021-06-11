@@ -1,3 +1,4 @@
+- 2021-06-11 at 18h24 · [[2021-06-11]]
 - 2021-06-10 at 16h38 · [[2021-06-10]]
 - 2021-06-08 at 14h50 · [[PowerShell Tips and Tricks]]
 - 2021-06-08 at 14h49 · [[WinSCP Mirror Backup]]
@@ -7,4 +8,3 @@
 - 2021-06-05 at 19h38 · [[Software Roles and Titles]]
 - 2021-06-05 at 00h27 · [[2021-06-04]]
 - 2021-06-05 at 00h23 · [[Software Roles and Titles]]
-- 2021-06-05 at 00h00 · [[Day Planner-20210605]]
